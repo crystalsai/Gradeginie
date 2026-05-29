@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import { baseApiURL } from "../../baseUrl";
+import { baseApiURL, baseMediaURL } from "../../baseUrl";
 import { toast } from "react-hot-toast";
 import { useDispatch } from "react-redux";
 import { setUserData } from "../../redux/actions";
@@ -162,7 +162,7 @@ const Profile = () => {
             )}
           </div>
           <img
-            src={process.env.REACT_APP_MEDIA_LINK + "/" + data[0].profile}
+            src={baseMediaURL() + "/" + data[0].profile}
             alt="faculty profile"
             className="h-[200px] w-[200px] object-cover rounded-lg shadow-md"
           />

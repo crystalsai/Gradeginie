@@ -4,7 +4,7 @@ import { FiUpload, FiLink, FiVideo, FiFileText } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
 import toast from "react-hot-toast";
 import { useSelector } from "react-redux";
-import { baseApiURL } from "../../baseUrl";
+import { baseApiURL, baseMediaURL } from "../../baseUrl";
 
 const Material = () => {
   const { fullname } = useSelector((state) => state.userData);
@@ -324,7 +324,7 @@ const Material = () => {
                         borderRadius: 8, fontSize: 13, fontWeight: 600, textDecoration: "none", border: "1px solid #e2e8f0"
                       }}>Watch</a>
                     ) : (
-                      <a href={`${process.env.REACT_APP_MEDIA_LINK}/${mat.link}`} target="_blank" rel="noreferrer" style={{
+                      <a href={`${baseMediaURL()}/${mat.link}`} target="_blank" rel="noreferrer" style={{
                         flex: 1, padding: "8px", background: "#f8fafc", color: "#334155", textAlign: "center",
                         borderRadius: 8, fontSize: 13, fontWeight: 600, textDecoration: "none", border: "1px solid #e2e8f0"
                       }}>View PDF</a>

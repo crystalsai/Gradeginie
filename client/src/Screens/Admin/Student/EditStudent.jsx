@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import axios from "axios";
-import { baseApiURL } from "../../../baseUrl";
+import { baseApiURL, baseMediaURL } from "../../../baseUrl";
 import { FiSearch, FiUpload, FiX } from "react-icons/fi";
 const EditStudent = () => {
   const [file, setFile] = useState();
@@ -370,7 +370,7 @@ const EditStudent = () => {
           {!previewImage && data.profile && (
             <div className="w-full flex justify-center items-center">
               <img
-                src={process.env.REACT_APP_MEDIA_LINK + "/" + data.profile}
+                src={baseMediaURL() + "/" + data.profile}
                 alt="student"
                 className="h-36"
               />
