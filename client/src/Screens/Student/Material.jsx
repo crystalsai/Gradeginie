@@ -4,7 +4,7 @@ import { IoMdLink } from "react-icons/io";
 import { HiOutlineCalendar, HiOutlineSearch } from "react-icons/hi";
 import { FiVideo, FiFileText } from "react-icons/fi";
 import toast from "react-hot-toast";
-import { baseApiURL, baseMediaURL } from "../../baseUrl";
+import { baseApiURL, mediaURL } from "../../baseUrl";
 
 const Material = () => {
   const [subject, setSubject] = useState();
@@ -63,7 +63,7 @@ const Material = () => {
     if (item.materialType === "video") {
       window.open(item.videoLink, "_blank");
     } else {
-      window.open(baseMediaURL() + "/" + item.link, "_blank");
+      window.open(mediaURL(item.link), "_blank");
     }
   };
 

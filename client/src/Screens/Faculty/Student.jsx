@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import toast from "react-hot-toast";
 import Heading from "../../components/Heading";
 import axios from "axios";
-import { baseApiURL, baseMediaURL } from "../../baseUrl";
+import { baseApiURL, mediaURL } from "../../baseUrl";
 import { FiSearch } from "react-icons/fi";
 const Student = () => {
   const [search, setSearch] = useState();
@@ -125,7 +125,7 @@ const Student = () => {
               </div>
             </div>
             <img
-              src={baseMediaURL() + "/" + data.profile}
+              src={mediaURL(data.profile)}
               alt="student profile"
               className="h-[200px] w-[200px] object-cover rounded-lg shadow-md"
             />

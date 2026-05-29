@@ -1,6 +1,7 @@
 const Material = require("../../models/Other/material.model");
 const studentDetails = require("../../models/Students/details.model");
 const { sendMaterialNotification } = require("../../utils/mailer");
+const { getUploadedFileValue } = require("../../utils/uploadedFile");
 
 const getMaterial = async (req, res) => {
     try {
@@ -22,7 +23,7 @@ const addMaterial = async (req, res) => {
     try {
         // For video type, use a placeholder filename; for pdf, use uploaded file
         const type = materialType || "pdf";
-        const fileLink = type === "video" ? (videoLink || "") : (req.file ? req.file.filename : "");
+        const fileLink = type === "video" ? (videoLink || "") : getUploadedFileValue(req.file);
 
         if (!fileLink) {
             return res.status(400).json({ success: false, message: "Please provide a file or video link!" });

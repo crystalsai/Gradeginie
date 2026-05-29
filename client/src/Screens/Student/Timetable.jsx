@@ -4,7 +4,7 @@ import { FiDownload } from "react-icons/fi";
 import Heading from "../../components/Heading";
 import { useSelector } from "react-redux";
 import { toast } from "react-hot-toast";
-import { baseApiURL, baseMediaURL } from "../../baseUrl";
+import { baseApiURL, mediaURL } from "../../baseUrl";
 const Timetable = () => {
   const [timetable, setTimetable] = useState("");
   const userData = useSelector((state) => state.userData);
@@ -43,7 +43,7 @@ const Timetable = () => {
           <p
             className="flex justify-center items-center text-lg font-medium cursor-pointer hover:text-red-500 hover:scale-110 ease-linear transition-all duration-200 hover:duration-200 hover:ease-linear hover:transition-all"
             onClick={() =>
-              window.open(baseMediaURL() + "/" + timetable)
+              window.open(mediaURL(timetable))
             }
           >
             Download
@@ -56,7 +56,7 @@ const Timetable = () => {
       {timetable && (
         <img
           className="mt-8 rounded-lg shadow-md w-[70%] mx-auto"
-          src={baseMediaURL() + "/" + timetable}
+          src={mediaURL(timetable)}
           alt="timetable"
         />
       )}

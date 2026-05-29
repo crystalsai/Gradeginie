@@ -1,4 +1,5 @@
 const Timetable = require("../../models/Other/timetable.model");
+const { getUploadedFileValue } = require("../../utils/uploadedFile");
 
 const getTimetable = async (req, res) => {
     try {
@@ -17,10 +18,14 @@ const getTimetable = async (req, res) => {
 const addTimetable = async (req, res) => {
     let { semester, branch } = req.body;
     try {
+        const link = getUploadedFileValue(req.file);
+        if (!link) {
+            return res.status(400).json({ success: false, message: "Timetable image is required" });
+        }
         let timetable = await Timetable.findOne({ semester, branch });
         if (timetable) {
             await Timetable.findByIdAndUpdate(timetable._id, {
-                semester, branch, link: req.file.filename
+                semester, branch, link
             });
             const data = {
                 success: true,
@@ -29,7 +34,7 @@ const addTimetable = async (req, res) => {
             res.json(data);
         } else {
             await Timetable.create({
-                semester, branch, link: req.file.filename
+                semester, branch, link
             });
             const data = {
                 success: true,

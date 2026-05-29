@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import toast from "react-hot-toast";
 import axios from "axios";
-import { baseApiURL, baseMediaURL } from "../../../baseUrl";
+import { baseApiURL, mediaURL } from "../../../baseUrl";
 import { FiSearch, FiUpload, FiX } from "react-icons/fi";
 
 const EditAdmin = () => {
@@ -268,7 +268,7 @@ const EditAdmin = () => {
           {previewImage && (
             <div className="w-full flex justify-center items-center">
               <img
-                src={baseMediaURL() + "/" + previewImage}
+                src={mediaURL(previewImage)}
                 alt="admin"
                 className="h-36"
               />
@@ -277,7 +277,7 @@ const EditAdmin = () => {
           {!previewImage && data.profile && (
             <div className="w-full flex justify-center items-center">
               <img
-                src={baseMediaURL() + "/" + data.profile}
+                src={mediaURL(data.profile)}
                 alt="admin"
                 className="h-36"
               />

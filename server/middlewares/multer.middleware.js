@@ -1,7 +1,6 @@
 const multer = require("multer");
-const path = require("path");
 
-const storage = multer.diskStorage({
+const diskStorage = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, "./media");
     },
@@ -22,6 +21,13 @@ const storage = multer.diskStorage({
     }
 });
 
-const upload = multer({ storage: storage });
+const storage = process.env.VERCEL ? multer.memoryStorage() : diskStorage;
+
+const upload = multer({
+    storage: storage,
+    limits: {
+        fileSize: 5 * 1024 * 1024,
+    },
+});
 
 module.exports = upload;

@@ -1,4 +1,5 @@
 const studentDetails = require("../../models/Students/details.model.js")
+const { getUploadedFileValue } = require("../../utils/uploadedFile.js")
 
 const getDetails = async (req, res) => {
     try {
@@ -31,7 +32,11 @@ const addDetails = async (req, res) => {
                 message: "Student With This Enrollment Already Exists",
             });
         }
-        user = await studentDetails.create({ ...req.body, profile: req.file.filename });
+        const profile = getUploadedFileValue(req.file);
+        if (!profile) {
+            return res.status(400).json({ success: false, message: "Profile image is required" });
+        }
+        user = await studentDetails.create({ ...req.body, profile });
         const data = {
             success: true,
             message: "Student Details Added!",
@@ -49,7 +54,7 @@ const updateDetails = async (req, res) => {
     try {
         let user;
         if (req.file) {
-            user = await studentDetails.findByIdAndUpdate(req.params.id, { ...req.body, profile: req.file.filename });
+            user = await studentDetails.findByIdAndUpdate(req.params.id, { ...req.body, profile: getUploadedFileValue(req.file) });
         } else {
             user = await studentDetails.findByIdAndUpdate(req.params.id, req.body);
         }

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { useLocation } from "react-router-dom";
 import { setUserData } from "../../redux/actions";
-import { baseApiURL, baseMediaURL } from "../../baseUrl";
+import { baseApiURL, mediaURL } from "../../baseUrl";
 import toast from "react-hot-toast";
 const Profile = () => {
   const [showPass, setShowPass] = useState(false);
@@ -163,7 +163,7 @@ const Profile = () => {
             )}
           </div>
           <img
-            src={baseMediaURL() + "/" + data.profile}
+            src={mediaURL(data.profile)}
             alt="student profile"
             className="h-[240px] w-[240px] object-cover rounded-lg shadow-md"
           />
