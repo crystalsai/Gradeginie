@@ -1,0 +1,1173 @@
+21:03:35:404 (00007604) > [Startup] Ghost of Tsushima DIRECTOR'S CUT
+21:03:35:404 (00007604) > [Startup] ==============
+21:03:35:404 (00007604) > [Startup] 
+21:03:35:404 (00007604) > [Startup] Build: v1053.0.0515.2048
+21:03:35:404 (00007604) > [Startup] Windows 11.0 (build 26200.7462)
+21:03:35:404 (00007604) > [Startup] Distribution platform: Steam
+21:03:35:404 (00007604) > [Startup] Game directory: C:\Users\<username>\OneDrive\Tài liệu\Ghost of Tsushima DIRECTOR'S CUT\
+21:03:35:404 (00007604) > [Startup] Working directory: D:\S4xai\Ghost of Tsushima DC
+21:03:35:404 (00007604) > [Startup] Run ID: 2910-A669-55FA-3771
+21:03:35:404 (00007604) > [Startup] 
+21:03:35:404 (00007604) > [Startup] Memory statistics:
+21:03:35:404 (00007604) > [Startup]   Total RAM = 15.8 GB (16202 MB)
+21:03:35:404 (00007604) > [Startup]   Avail RAM = 9.3 GB (9485 MB)
+21:03:35:404 (00007604) > [Startup]   Total virtual memory = 131072.0 GB (134217727 MB)
+21:03:35:404 (00007604) > [Startup]   Avail virtual memory = 131066.7 GB (134212327 MB)
+21:03:35:404 (00007604) > [Startup]   Total page file = 29.3 GB (30026 MB)
+21:03:35:404 (00007604) > [Startup]   Avail page file = 17.1 GB (17513 MB)
+21:03:35:404 (00007604) > [Startup] 
+21:03:35:404 (00007604) > [Steam] Initializing.
+21:03:35:404 (00007604) > [Steam] Successfully initialized.
+21:03:35:404 (00007604) > [Steam] Currently connected to 0 remote sessions
+21:03:35:404 (00007604) > [NxSteam] End previously existing file batch, did the game quit abnormally while saving?
+21:03:35:557 (00007604) > [NxApp] PreInit
+21:03:35:557 (00007604) > [SwapChain] Initializing...
+21:03:35:557 (00007604) > [DXGI] Initializing...
+21:03:37:461 (00007604) > [NxApp] Streamline was successfully initialized.
+21:03:37:461 (00007604) > [DXGI] Successfully initialized.
+21:03:37:461 (00007604) > [Render] Enumerating adapters:
+21:03:37:462 (00007604) > [Render] 	Adapter 0:
+21:03:37:462 (00007604) > [Monitor] 		Description             : NVIDIA GeForce RTX 3050 Laptop GPU
+21:03:37:462 (00007604) > [Monitor] 		Vendor                  : nVidia (10de)
+21:03:37:462 (00007604) > [Monitor] 		Device                  : 25a2
+21:03:37:462 (00007604) > [Monitor] 		Sub system              : 39081043
+21:03:37:462 (00007604) > [Monitor] 		Revision                : 161
+21:03:37:462 (00007604) > [Monitor] 		Dedicated Video Memory  : 3964 MB
+21:03:37:462 (00007604) > [Monitor] 		Dedicated System Memory : 0000 MB
+21:03:37:462 (00007604) > [Monitor] 		Shared System Memory    : 8101 MB
+21:03:37:462 (00007604) > [Monitor] 
+21:03:37:462 (00007604) > [Render] Loading NVAPI...
+21:03:37:463 (00007604) > [Render] Done loading NVAPI
+21:03:37:463 (00007604) > [Render] 	Adapter 1:
+21:03:37:463 (00007604) > [Monitor] 		Description             : Microsoft Basic Render Driver
+21:03:37:463 (00007604) > [Monitor] 		Vendor                  : Unknown (1414)
+21:03:37:463 (00007604) > [Monitor] 		Device                  : 8c
+21:03:37:463 (00007604) > [Monitor] 		Sub system              : 0
+21:03:37:463 (00007604) > [Monitor] 		Revision                : 0
+21:03:37:463 (00007604) > [Monitor] 		Dedicated Video Memory  : 0000 MB
+21:03:37:463 (00007604) > [Monitor] 		Dedicated System Memory : 0000 MB
+21:03:37:463 (00007604) > [Monitor] 		Shared System Memory    : 8101 MB
+21:03:37:463 (00007604) > [Monitor] 
+21:03:37:463 (00007604) > [Render] Enumerating monitors:
+21:03:37:463 (00007604) > [Render] 	Monitor 0: handle = 0000000000010001, aspect = 1.77, rounded aspect = 1.78
+21:03:37:463 (00007604) > [Render] 
+21:03:37:466 (00007604) > [Render] 	Monitor handle = 0000000000010001, pixel aspect ratio = 1.00
+21:03:37:466 (00007604) > [SwapChain] Successfully initialized.
+21:03:37:466 (00007604) > [Render] Enumerating Display Modes:
+21:03:37:466 (00007604) > [Render] Querying NVAPI for Surround modes
+21:03:37:564 (00007604) > [Render] NvAPI_Mosaic_GetDisplayViewportsByResolution() - no surround modes detected
+21:03:37:564 (00007604) > [Render] 	Monitor '1 (NVIDIA GeForce RTX 3050 Laptop GPU(1))' (0000000000010001): rect(0 1920 0 1080)
+21:03:37:564 (00007604) > [Render] 		- Mode  0 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode  1 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode  2 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode  3 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode  4 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode  5 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode  6 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode  7 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode  8 : 1152 x  864 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode  9 : 1152 x  864 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 10 : 1152 x  864 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 11 : 1152 x  864 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 12 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 13 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 14 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 15 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 16 : 1280 x  960 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 17 : 1280 x  960 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 18 : 1280 x  960 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 19 : 1280 x  960 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 20 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 21 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 22 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 23 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 24 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 25 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 26 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 27 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 28 : 1400 x 1050 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 29 : 1400 x 1050 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 30 : 1400 x 1050 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 31 : 1400 x 1050 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 32 : 1440 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 33 : 1440 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 34 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 35 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 36 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 37 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 38 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 39 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 40 : 1600 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 41 : 1600 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 42 : 1600 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 43 : 1600 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 44 : 1920 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] 		- Mode 45 : 1920 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+21:03:37:564 (00007604) > [Render] ***** Additional Monitor Output Info *****
+21:03:37:564 (00007604) > [Render] 		BitsPerColor: 8
+21:03:37:564 (00007604) > [Render] 		Primaries: R=0.5947;0.3613  G=0.3457;0.5547  B=0.1572;0.1064  White-Point=0.3125;0.3281
+21:03:37:564 (00007604) > [Render] 		HDR: No (Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709)
+21:03:37:564 (00007604) > [Render] 		Luminance: Min=0.5000 Max=270.0000 MaxFullFrame=270.0000
+21:03:37:564 (00007604) > [Render] ******************************************
+21:03:37:564 (00007604) > [Render] 
+21:03:37:973 (00007604) > [NxReflex] Reflex support result:Result::eOk
+21:03:37:973 (00007604) > [NxReflex] Reflex GetState result:Result::eErrorNotInitialized
+21:03:37:973 (00007604) > [NxReflex] DLSSG support result:Result::eErrorNoSupportedAdapterFound
+21:03:37:973 (00007604) > [NxApp] Querying GPU Driver Info...
+21:03:37:973 (00007604) > [NxApp] Enumerating available display adapters:
+21:03:37:987 (00007604) > [NxApp] 		NVIDIA GeForce RTX 3050 Laptop GPU (active)
+21:03:37:987 (00007604) > [NxApp] Successfully found GPU Driver Info
+21:03:37:987 (00007604) > [D3D] Max supported feature level: 11.0
+21:03:37:987 (00007604) > [Render] Disabled D3D12 experimentals
+21:03:38:185 (00007604) > [Render] VMEM Budget: 3369 MB
+21:03:38:185 (00007604) > [Render] VMEM Available: 3347 MB
+21:03:39:008 (00007604) > [Render] GPU node count: 1
+21:03:39:043 (00007604) > [NxApp] PreInit successful.
+21:03:39:046 (00007604) > [NxUpscaler] SL DLSS support: Result::eOk
+21:03:39:094 (00007604) > [NxUpscaler] XeSS init, code = 0
+21:03:39:100 (00007604) > [Input] Keyboard language: "English (United States)" (id: 1033)
+21:03:39:100 (00007604) > [Input] Keyboard physical layout: "India" (id: 00004009)
+21:03:39:100 (00007604) > [Input] Joystick            ""   product 64515 vendor 13652 version 1936 usage 136 usagePage 65468 xinput no
+21:03:39:100 (00007604) > [Input] Human Input Device  "HID-compliant vendor-defined device"   product 6582 vendor 2821 version 0 usage 130 usagePage 65328
+21:03:39:100 (00007604) > [Input] Joystick            ""   product 64515 vendor 13652 version 1936 usage 1 usagePage 12 xinput no
+21:03:39:100 (00007604) > [Input] Human Input Device  "HID-compliant wireless radio controls"   product 6582 vendor 2821 version 0 usage 12 usagePage 1
+21:03:39:100 (00007604) > [Input] Joystick            ""   product 64515 vendor 13652 version 1936 usage 0 usagePage 65281 xinput no
+21:03:39:100 (00007604) > [Input] Human Input Device  "Microsoft Input Configuration Device"   product 0 vendor 0 version 0 usage 0 usagePage 0
+21:03:39:100 (00007604) > [Input] Human Input Device  "ASUS Precision Touchpad"   product 12410 vendor 1267 version 3 usage 5 usagePage 13
+21:03:39:100 (00007604) > [Input] Keyboard            "HID Keyboard Device"   type 81 subType 0 mode 1 function 12 indicators 3 total 264
+21:03:39:100 (00007604) > [Input] Mouse               "HID-compliant mouse"   id 256 buttons 2 sampleRate 0 horizontalWheel no
+21:03:39:100 (00007604) > [Input] Keyboard            "Standard PS/2 Keyboard"   type 4 subType 0 mode 1 function 12 indicators 3 total 101
+21:03:39:100 (00007604) > [Input] Mouse               "HID-compliant mouse"   id 256 buttons 5 sampleRate 0 horizontalWheel no
+21:03:39:110 (00007604) > [Input] Using LibScePad
+21:03:39:111 (00007604) > [XInput] Enumerating available xusb hid devices:
+
+21:03:40:436 (00007604) > [NxReflex] Reflex support result:Result::eOk
+21:03:40:437 (00007604) > [NxReflex] Reflex GetState result:Result::eOk
+21:03:40:438 (00007604) > [NxReflex] DLSSG support result:Result::eErrorNoSupportedAdapterFound
+21:03:40:439 (00007604) > [NxApp] Driver Desc: NVIDIA GeForce RTX 3050 Laptop GPU
+21:03:40:439 (00007604) > [NxApp] Driver Version: 566.07
+21:03:40:439 (00007604) > [**************************************************Display + Graphics Settings**************************************************] 
+21:03:40:439 (00007604) > [Settings] DirectX Version: 12
+21:03:40:439 (00007604) > [Settings] Window mode: Fullscreen
+21:03:40:439 (00007604) > [Settings] Fullscreen display mode:
+21:03:40:439 (00007604) > [Settings] 	Displaying on monitor: 0
+21:03:40:439 (00007604) > [Settings] 	Resolution: 1920x1080
+21:03:40:439 (00007604) > [Settings] 	HDR: Off
+21:03:40:439 (00007604) > [Settings] 	OS reported Refresh rate: 144
+21:03:40:439 (00007604) > [Settings] 	VSync: On
+21:03:40:439 (00007604) > [Settings] 	Reflex: Low Latency
+21:03:40:439 (00007604) > [Settings] 	Frame generation: None
+21:03:40:439 (00007604) > [Settings] 	Resolution modifier 1.000000
+21:03:40:439 (00007604) > [Settings] 	Dynamic resolution FPS target: 60
+21:03:40:439 (00007604) > [Settings] Anti aliasing: TAA
+
+21:03:40:439 (00007604) > [Settings] Upscale method: DLSS
+
+21:03:40:439 (00007604) > [Settings] Upscale quality: Quality
+
+21:03:40:439 (00007604) > [Settings] Upscale sharpen value: 0.500000
+
+21:03:40:439 (00007604) > [Settings] Graphics Options:
+21:03:40:439 (00007604) > [Settings] 	Texture Quality: High
+21:03:40:439 (00007604) > [Settings] 	Texture Filtering: Anisotropic4x
+21:03:40:439 (00007604) > [Settings] 	Shadow Quality: High
+21:03:40:439 (00007604) > [Settings] 	Depth of Field: High
+21:03:40:439 (00007604) > [Settings] 	Level of Detail: High
+21:03:40:439 (00007604) > [Settings] 	Terrain Detail: High
+21:03:40:439 (00007604) > [Settings] 	Hair Quality: High
+21:03:40:439 (00007604) > [Settings] 	Ambient Occlusion: SSAO Quality
+21:03:40:439 (00007604) > [Settings] 	Screen Space Reflections: Half Res
+21:03:40:439 (00007604) > [Settings] 	Particle Lighting: High
+
+21:03:40:439 (00007604) > [Settings] 	Bloom: On
+21:03:40:439 (00007604) > [Settings] 	Vignette: On
+21:03:40:439 (00007604) > [Settings] 	Caustics: On
+21:03:40:439 (00007604) > [Settings] 	Motion Blur: 1.000000
+21:03:40:439 (00007604) > [Settings] 	FOV Correction: 1.000000
+21:03:40:439 (00007604) > [Settings] 	Film Grain Strength: 1.000000
+21:03:40:439 (00007604) > [Settings] 	Sharpness: 1.000000
+21:03:40:439 (00007604) > [Settings] 	Lens Flares: On
+21:03:40:439 (00007604) > [Settings] 	Screen Effects: On
+21:03:40:439 (00007604) > [**************************************************Display + Graphics Settings**************************************************] 
+21:03:40:472 (00007604) > [NxApp] Creating window...
+21:03:40:475 (00030224) > [GameWindow] UpdateState bVisible true
+21:03:40:492 (00007604) > [NxApp] Window created.
+21:03:40:492 (00007604) > [NxApp] Initializing swapchain...
+21:03:40:492 (00030256) > [SwapChain] Creating...
+21:03:40:492 (00030256) > [NxSwapChainImpl] Swapchain native backbuffer (windows) resolution: 1920x1080
+21:03:40:492 (00030256) > [Upscaler] ConvertScreenToRenderRes: wxh = 1920x1080 | min = 960x540 | max =  1920x1080
+21:03:40:504 (00030256) > [DXGI] Created swapchain.
+21:03:40:512 (00030256) > [SwapChain] Gamma correction is enabled.
+21:03:40:512 (00030256) > [SwapChain] Successfully created.
+21:03:40:512 (00030256) > [NxSwapChainImpl] Swapchain native backbuffer (windows) resolution: 1920x1080
+21:03:40:512 (00030256) > [Upscaler] ConvertScreenToRenderRes: wxh = 1920x1080 | min = 960x540 | max =  1920x1080
+21:03:40:512 (00007604) > [NxApp] Swapchain initialized
+21:03:40:512 (00007604) > [NxApp] Initializing renderer...
+21:03:40:512 (00007604) > [NxApp] Renderer initialized
+21:03:40:513 (00007604) > [NxStorage] Detected device at 'd:\s4xai\ghost of tsushima dc', name 'SAMSUNG MZVL8512HELU-00BTW', SSD: Yes, NVMe: Yes
+21:03:40:671 (00007604) > [NxStorage] DirectStorage initialization succeeded
+21:03:40:672 (00007604) > [CJobManager] Creating  10 worker threads, run on  11 cores
+
+21:03:40:733 (00007604) > [Render] Pipeline cache C:\Users\<username>\AppData\Roaming\Sucker Punch Productions\Ghost of Tsushima DIRECTOR'S CUT\\user.pso read succesfully, read 66 pipelines, found 0 duplicates.
+21:03:40:744 (00007604) > [Render] Pipeline cache default.pso read succesfully, read 16192 pipelines, found 0 duplicates.
+21:03:40:753 (00007604) > [SCE] SDK is not detected
+21:03:41:234 (00007604) > [Steam] Stats received: 2
+21:04:35:389 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:04:35:389 (00001360) > [Render] Working set: 6357MB Page file: 10514MB Video Budget: 3275MB Video Usage: 3103MB Sys Budget: 7440MB Sys Usage: 1477MB Demoted: 1166MB fps: 50.250004
+21:05:35:402 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:05:35:402 (00001360) > [Render] Working set: 7170MB Page file: 11275MB Video Budget: 3267MB Video Usage: 3074MB Sys Budget: 7440MB Sys Usage: 2214MB Demoted: 1166MB fps: 50.250004 Demoted: 1888MB fps: 49.350002
+21:06:35:412 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:06:35:413 (00001360) > [Render] Working set: 7275MB Page file: 11302MB Video Budget: 3275MB Video Usage: 3022MB Sys Budget: 7440MB Sys Usage: 2269MB Demoted: 1888MB fps: 49.350002 Demoted: 1949MB fps: 51.950005
+21:07:35:415 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:07:35:415 (00001360) > [Render] Working set: 7432MB Page file: 11402MB Video Budget: 3275MB Video Usage: 2980MB Sys Budget: 7440MB Sys Usage: 2347MB Demoted: 1949MB fps: 51.950005 Demoted: 2025MB fps: 49.016670
+21:08:35:414 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:08:35:414 (00001360) > [Render] Working set: 7349MB Page file: 11478MB Video Budget: 3275MB Video Usage: 3136MB Sys Budget: 7440MB Sys Usage: 2210MB Demoted: 2025MB fps: 49.016670 Demoted: 1885MB fps: 42.266670
+21:09:35:406 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:09:35:406 (00001360) > [Render] Working set: 7475MB Page file: 11569MB Video Budget: 3267MB Video Usage: 3030MB Sys Budget: 7440MB Sys Usage: 2351MB Demoted: 1885MB fps: 42.266670 Demoted: 2026MB fps: 55.533337
+21:10:35:415 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:10:35:415 (00001360) > [Render] Working set: 7556MB Page file: 11605MB Video Budget: 3273MB Video Usage: 3015MB Sys Budget: 7440MB Sys Usage: 2375MB Demoted: 2026MB fps: 55.533337 Demoted: 2049MB fps: 58.683338
+21:11:35:409 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:11:35:409 (00001360) > [Render] Working set: 7826MB Page file: 11899MB Video Budget: 3275MB Video Usage: 3000MB Sys Budget: 7440MB Sys Usage: 2415MB Demoted: 2049MB fps: 58.683338 Demoted: 2089MB fps: 53.916668
+21:12:06:386 (00007604) > [Input] Input language was changed.
+21:12:06:387 (00007604) > [Input] Keyboard language: "English (India)" (id: 16393)
+21:12:06:387 (00007604) > [Input] Keyboard physical layout: "India" (id: 00004009)
+21:12:35:417 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:12:35:417 (00001360) > [Render] Working set: 7801MB Page file: 11952MB Video Budget: 3275MB Video Usage: 2998MB Sys Budget: 7440MB Sys Usage: 2465MB Demoted: 2089MB fps: 53.916668 Demoted: 2138MB fps: 46.750004
+21:13:35:432 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:13:35:432 (00001360) > [Render] Working set: 7602MB Page file: 11682MB Video Budget: 3267MB Video Usage: 2994MB Sys Budget: 7440MB Sys Usage: 2464MB Demoted: 2138MB fps: 46.750004 Demoted: 2137MB fps: 56.483337
+21:14:35:444 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:14:35:445 (00001360) > [Render] Working set: 7708MB Page file: 11779MB Video Budget: 3275MB Video Usage: 3067MB Sys Budget: 7440MB Sys Usage: 2469MB Demoted: 2137MB fps: 56.483337 Demoted: 2141MB fps: 52.233337
+21:15:35:457 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:15:35:458 (00001360) > [Render] Working set: 7772MB Page file: 12082MB Video Budget: 3275MB Video Usage: 3090MB Sys Budget: 7440MB Sys Usage: 2412MB Demoted: 2141MB fps: 52.233337 Demoted: 2075MB fps: 40.683334
+21:16:35:453 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:16:35:454 (00001360) > [Render] Working set: 7605MB Page file: 11793MB Video Budget: 3275MB Video Usage: 3120MB Sys Budget: 7440MB Sys Usage: 2382MB Demoted: 2075MB fps: 40.683334 Demoted: 2050MB fps: 47.433334
+21:17:35:455 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:17:35:455 (00001360) > [Render] Working set: 7622MB Page file: 11761MB Video Budget: 3278MB Video Usage: 3008MB Sys Budget: 7440MB Sys Usage: 2505MB Demoted: 2050MB fps: 47.433334 Demoted: 2173MB fps: 59.283337
+21:18:35:462 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:18:35:462 (00001360) > [Render] Working set: 7641MB Page file: 11820MB Video Budget: 3267MB Video Usage: 3105MB Sys Budget: 7440MB Sys Usage: 2463MB Demoted: 2173MB fps: 59.283337 Demoted: 2131MB fps: 51.683334
+21:19:35:460 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:19:35:461 (00001360) > [Render] Working set: 7654MB Page file: 11906MB Video Budget: 3267MB Video Usage: 3072MB Sys Budget: 7440MB Sys Usage: 2440MB Demoted: 2131MB fps: 51.683334 Demoted: 2107MB fps: 61.300003
+21:20:35:463 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:20:35:464 (00001360) > [Render] Working set: 6630MB Page file: 11953MB Video Budget: 3275MB Video Usage: 3072MB Sys Budget: 7440MB Sys Usage: 2471MB Demoted: 2107MB fps: 61.300003 Demoted: 2105MB fps: 56.050003
+21:21:35:479 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:21:35:479 (00001360) > [Render] Working set: 6582MB Page file: 11883MB Video Budget: 3267MB Video Usage: 3072MB Sys Budget: 7440MB Sys Usage: 2455MB Demoted: 2105MB fps: 56.050003 Demoted: 2122MB fps: 48.500004
+21:22:35:483 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:22:35:484 (00001360) > [Render] Working set: 6584MB Page file: 11829MB Video Budget: 3275MB Video Usage: 3031MB Sys Budget: 7440MB Sys Usage: 2486MB Demoted: 2122MB fps: 48.500004 Demoted: 2153MB fps: 48.950001
+21:23:35:488 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:23:35:488 (00001360) > [Render] Working set: 6539MB Page file: 11862MB Video Budget: 3267MB Video Usage: 3113MB Sys Budget: 7440MB Sys Usage: 2421MB Demoted: 2153MB fps: 48.950001 Demoted: 2087MB fps: 53.166668
+21:24:35:491 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:24:35:491 (00001360) > [Render] Working set: 6590MB Page file: 11835MB Video Budget: 3275MB Video Usage: 3023MB Sys Budget: 7440MB Sys Usage: 2503MB Demoted: 2087MB fps: 53.166668 Demoted: 2169MB fps: 53.766670
+21:25:35:490 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:25:35:491 (00001360) > [Render] Working set: 4973MB Page file: 11886MB Video Budget: 3267MB Video Usage: 3117MB Sys Budget: 7440MB Sys Usage: 2419MB Demoted: 2169MB fps: 53.766670 Demoted: 2085MB fps: 55.733337
+21:26:35:481 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:26:35:481 (00001360) > [Render] Working set: 5079MB Page file: 11899MB Video Budget: 3275MB Video Usage: 3124MB Sys Budget: 7440MB Sys Usage: 2428MB Demoted: 2085MB fps: 55.733337 Demoted: 2093MB fps: 51.750004
+21:27:35:493 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:27:35:494 (00001360) > [Render] Working set: 5100MB Page file: 11878MB Video Budget: 3275MB Video Usage: 3047MB Sys Budget: 7440MB Sys Usage: 2493MB Demoted: 2093MB fps: 51.750004 Demoted: 2158MB fps: 48.300003
+21:28:35:498 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:28:35:498 (00001360) > [Render] Working set: 5192MB Page file: 12021MB Video Budget: 3275MB Video Usage: 3065MB Sys Budget: 7440MB Sys Usage: 2495MB Demoted: 2158MB fps: 48.300003 Demoted: 2161MB fps: 42.816669
+21:29:35:504 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:29:35:504 (00001360) > [Render] Working set: 5230MB Page file: 12157MB Video Budget: 3275MB Video Usage: 3108MB Sys Budget: 7440MB Sys Usage: 2478MB Demoted: 2161MB fps: 42.816669 Demoted: 2136MB fps: 45.250004
+21:30:35:501 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:30:35:501 (00001360) > [Render] Working set: 4650MB Page file: 11961MB Video Budget: 3275MB Video Usage: 3132MB Sys Budget: 7440MB Sys Usage: 2458MB Demoted: 2136MB fps: 45.250004 Demoted: 2121MB fps: 46.783337
+21:31:35:496 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:31:35:496 (00001360) > [Render] Working set: 4871MB Page file: 12115MB Video Budget: 3275MB Video Usage: 3139MB Sys Budget: 7440MB Sys Usage: 2518MB Demoted: 2121MB fps: 46.783337 Demoted: 2137MB fps: 47.433334
+21:32:35:503 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:32:35:504 (00001360) > [Render] Working set: 4816MB Page file: 12078MB Video Budget: 3275MB Video Usage: 3121MB Sys Budget: 7440MB Sys Usage: 2483MB Demoted: 2137MB fps: 47.433334 Demoted: 2145MB fps: 46.100002
+21:33:35:496 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:33:35:496 (00001360) > [Render] Working set: 4759MB Page file: 11967MB Video Budget: 3267MB Video Usage: 3123MB Sys Budget: 7440MB Sys Usage: 2488MB Demoted: 2145MB fps: 46.100002 Demoted: 2150MB fps: 66.483337
+21:34:35:505 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:34:35:505 (00001360) > [Render] Working set: 4767MB Page file: 11979MB Video Budget: 3275MB Video Usage: 3120MB Sys Budget: 7440MB Sys Usage: 2489MB Demoted: 2150MB fps: 66.483337 Demoted: 2151MB fps: 55.516670
+21:35:35:500 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:35:35:500 (00001360) > [Render] Working set: 4312MB Page file: 11989MB Video Budget: 3275MB Video Usage: 3113MB Sys Budget: 7440MB Sys Usage: 2512MB Demoted: 2151MB fps: 55.516670 Demoted: 2174MB fps: 58.416668
+21:36:35:508 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:36:35:508 (00001360) > [Render] Working set: 4326MB Page file: 11969MB Video Budget: 3275MB Video Usage: 3091MB Sys Budget: 7440MB Sys Usage: 2525MB Demoted: 2174MB fps: 58.416668 Demoted: 2187MB fps: 58.166668
+21:37:35:498 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:37:35:498 (00001360) > [Render] Working set: 4351MB Page file: 11992MB Video Budget: 3275MB Video Usage: 3133MB Sys Budget: 7440MB Sys Usage: 2489MB Demoted: 2187MB fps: 58.166668 Demoted: 2150MB fps: 54.216671
+21:38:35:499 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:38:35:499 (00001360) > [Render] Working set: 4499MB Page file: 12197MB Video Budget: 3275MB Video Usage: 3129MB Sys Budget: 7440MB Sys Usage: 2500MB Demoted: 2150MB fps: 54.216671 Demoted: 2159MB fps: 45.400002
+21:39:07:021 (00007604) > [Input] Input language was changed.
+21:39:07:021 (00007604) > [Input] Keyboard language: "English (United States)" (id: 1033)
+21:39:07:021 (00007604) > [Input] Keyboard physical layout: "India" (id: 00004009)
+21:39:20:836 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:39:34:876 (00007604) > [Input] Input language was changed.
+21:39:34:876 (00007604) > [Input] Keyboard language: "English (India)" (id: 16393)
+21:39:34:876 (00007604) > [Input] Keyboard physical layout: "India" (id: 00004009)
+21:39:35:506 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:39:35:509 (00001360) > [Render] Working set: 4535MB Page file: 12125MB Video Budget: 3275MB Video Usage: 3143MB Sys Budget: 7440MB Sys Usage: 2506MB Demoted: 2159MB fps: 45.400002 Demoted: 2166MB fps: 42.783337
+21:40:35:500 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:40:35:501 (00001360) > [Render] Working set: 4358MB Page file: 12170MB Video Budget: 3275MB Video Usage: 3175MB Sys Budget: 7440MB Sys Usage: 2479MB Demoted: 2166MB fps: 42.783337 Demoted: 2103MB fps: 41.816669
+21:40:35:908 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:41:35:498 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:41:35:498 (00001360) > [Render] Working set: 4316MB Page file: 12031MB Video Budget: 3275MB Video Usage: 3139MB Sys Budget: 7440MB Sys Usage: 2500MB Demoted: 2103MB fps: 41.816669 Demoted: 2159MB fps: 49.400002
+21:42:35:514 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:42:35:514 (00001360) > [Render] Working set: 4314MB Page file: 12019MB Video Budget: 3275MB Video Usage: 3136MB Sys Budget: 7440MB Sys Usage: 2494MB Demoted: 2159MB fps: 49.400002 Demoted: 2153MB fps: 45.883335
+21:43:35:514 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:43:35:514 (00001360) > [Render] Working set: 4389MB Page file: 12089MB Video Budget: 3267MB Video Usage: 3198MB Sys Budget: 7440MB Sys Usage: 2506MB Demoted: 2153MB fps: 45.883335 Demoted: 2166MB fps: 50.716671
+21:44:35:513 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:44:35:513 (00001360) > [Render] Working set: 4395MB Page file: 12043MB Video Budget: 3267MB Video Usage: 3148MB Sys Budget: 7440MB Sys Usage: 2516MB Demoted: 2166MB fps: 50.716671 Demoted: 2175MB fps: 57.900002
+21:45:35:374 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:45:35:428 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:45:35:510 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:45:35:511 (00001360) > [Render] Working set: 4324MB Page file: 12353MB Video Budget: 3275MB Video Usage: 3258MB Sys Budget: 7440MB Sys Usage: 2393MB Demoted: 2175MB fps: 57.900002 Demoted: 1977MB fps: 57.316669
+21:46:35:522 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:46:35:522 (00001360) > [Render] Working set: 4350MB Page file: 12338MB Video Budget: 3275MB Video Usage: 3232MB Sys Budget: 7440MB Sys Usage: 2535MB Demoted: 1977MB fps: 57.316669 Demoted: 2134MB fps: 44.850002
+21:47:13:368 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:47:35:522 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:47:35:522 (00001360) > [Render] Working set: 4190MB Page file: 12101MB Video Budget: 3275MB Video Usage: 3166MB Sys Budget: 7440MB Sys Usage: 2513MB Demoted: 2134MB fps: 44.850002 Demoted: 2170MB fps: 46.150002
+21:47:55:136 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:48:35:516 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:48:35:517 (00001360) > [Render] Working set: 4223MB Page file: 12131MB Video Budget: 3275MB Video Usage: 3166MB Sys Budget: 7440MB Sys Usage: 2512MB Demoted: 2170MB fps: 46.150002 Demoted: 2168MB fps: 46.066669
+21:48:37:105 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:49:35:520 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:49:35:520 (00001360) > [Render] Working set: 4279MB Page file: 12179MB Video Budget: 3275MB Video Usage: 3231MB Sys Budget: 7440MB Sys Usage: 2530MB Demoted: 2168MB fps: 46.066669 Demoted: 2186MB fps: 47.783337
+21:50:15:476 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:50:33:027 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:50:35:525 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:50:35:526 (00001360) > [Render] Working set: 4223MB Page file: 12281MB Video Budget: 3275MB Video Usage: 3224MB Sys Budget: 7440MB Sys Usage: 2525MB Demoted: 2186MB fps: 47.783337 Demoted: 2178MB fps: 51.550003
+21:51:35:527 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:51:35:528 (00001360) > [Render] Working set: 4189MB Page file: 12276MB Video Budget: 3275MB Video Usage: 3223MB Sys Budget: 7440MB Sys Usage: 2516MB Demoted: 2178MB fps: 51.550003 Demoted: 2169MB fps: 52.433334
+21:51:48:663 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:51:53:089 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:51:53:403 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:51:53:851 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:51:57:773 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:51:58:178 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:51:58:280 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:51:58:839 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:51:59:128 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:52:14:676 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:52:15:821 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:52:16:438 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:52:16:477 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:52:16:685 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:52:35:540 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:52:35:540 (00001360) > [Render] Working set: 4121MB Page file: 12174MB Video Budget: 3275MB Video Usage: 3240MB Sys Budget: 7440MB Sys Usage: 2504MB Demoted: 2169MB fps: 52.433334 Demoted: 2157MB fps: 54.833336
+21:52:54:756 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:52:55:577 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:53:04:578 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:53:35:530 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:53:35:530 (00001360) > [Render] Working set: 4164MB Page file: 12257MB Video Budget: 3275MB Video Usage: 3248MB Sys Budget: 7440MB Sys Usage: 2538MB Demoted: 2157MB fps: 54.833336 Demoted: 2190MB fps: 54.033337
+21:54:35:532 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:54:35:532 (00001360) > [Render] Working set: 4132MB Page file: 12214MB Video Budget: 3275MB Video Usage: 3250MB Sys Budget: 7440MB Sys Usage: 2535MB Demoted: 2190MB fps: 54.033337 Demoted: 2187MB fps: 55.016670
+21:54:49:259 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:54:52:413 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:54:53:156 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:01:110 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:03:820 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:05:677 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:07:437 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:07:737 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:08:807 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:16:697 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:17:281 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:18:516 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:20:165 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:23:679 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:23:901 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:24:184 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:25:173 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:25:786 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:25:897 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:31:591 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:35:541 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:55:35:542 (00001360) > [Render] Working set: 4089MB Page file: 12233MB Video Budget: 3275MB Video Usage: 3252MB Sys Budget: 7440MB Sys Usage: 2524MB Demoted: 2187MB fps: 55.016670 Demoted: 2176MB fps: 53.050003
+21:55:36:515 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:55:44:374 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:56:15:418 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:56:34:977 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:56:35:558 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:56:35:558 (00001360) > [Render] Working set: 4137MB Page file: 12412MB Video Budget: 3275MB Video Usage: 3253MB Sys Budget: 7440MB Sys Usage: 2507MB Demoted: 2176MB fps: 53.050003 Demoted: 2160MB fps: 53.633335
+21:56:38:110 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:56:39:082 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:56:50:850 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:56:55:461 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:05:199 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:06:602 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:07:320 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:07:620 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:15:085 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:26:913 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:27:095 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:27:160 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:27:223 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:30:735 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:30:822 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:32:351 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:32:398 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:32:575 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:32:661 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:32:791 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:32:916 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:32:979 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:33:043 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:33:169 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:33:255 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:33:298 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:33:429 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:33:497 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:33:541 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:33:629 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:33:940 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:34:007 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:34:070 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:34:526 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:34:574 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:34:662 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:34:842 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:34:907 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:34:973 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:35:083 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:35:151 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:35:219 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:35:560 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:57:35:561 (00001360) > [Render] Working set: 4203MB Page file: 12343MB Video Budget: 3275MB Video Usage: 3275MB Sys Budget: 7440MB Sys Usage: 2512MB Demoted: 2160MB fps: 53.633335 Demoted: 2164MB fps: 54.616669
+21:57:35:622 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:36:135 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:36:182 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:36:254 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:37:203 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:37:273 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:37:344 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:37:410 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:37:724 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:37:793 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:37:837 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:38:110 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:38:181 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:38:228 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:38:295 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:38:362 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:38:495 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:38:564 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:38:631 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:38:674 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:39:589 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:39:630 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:39:710 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:41:686 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:42:523 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:42:585 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:42:762 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:43:874 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:43:918 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:44:425 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:44:639 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:44:703 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:45:334 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:45:397 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:45:792 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:45:852 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:46:544 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:46:605 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:46:664 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:46:829 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:46:870 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:46:930 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:47:038 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:47:492 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:47:563 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:47:768 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:47:831 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:47:892 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:50:908 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:50:967 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:51:027 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:51:681 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:51:740 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:52:963 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:53:023 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:53:199 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:53:257 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:55:080 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:55:125 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:56:547 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:57:928 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:59:298 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:57:59:358 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:00:121 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:01:089 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:01:330 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:01:386 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:01:445 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:01:519 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:01:595 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:01:654 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:01:728 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:01:843 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:01:898 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:01:957 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:02:035 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:02:112 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:02:173 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:02:233 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:02:293 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:02:352 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:02:412 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:02:472 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:02:538 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:02:697 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:02:740 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:02:927 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:02:992 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:03:056 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:03:120 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:03:331 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:03:384 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:03:449 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:03:837 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:04:030 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:04:092 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:04:156 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:04:413 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:04:482 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:05:502 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:05:572 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:06:011 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:07:098 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:07:164 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:07:211 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:07:278 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:07:351 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:07:611 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:07:681 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:07:729 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:07:799 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:07:870 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:07:916 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:08:056 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:08:125 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:08:197 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:08:243 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:08:314 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:08:388 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:08:437 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:08:511 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:08:585 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:08:634 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:08:706 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:08:755 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:08:828 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:08:899 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:08:950 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:09:022 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:09:094 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:09:166 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:09:216 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:09:287 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:09:336 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:09:408 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:09:455 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:09:525 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:09:594 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:09:665 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:09:735 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:09:804 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:09:849 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:09:918 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:09:986 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:10:033 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:10:102 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:10:172 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:10:242 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:10:359 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:10:429 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:10:544 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:10:613 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:10:681 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:10:751 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:10:821 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:10:866 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:10:933 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:11:001 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:11:069 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:11:138 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:11:206 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:11:274 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:11:319 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:11:386 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:11:452 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:11:521 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:11:565 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:11:632 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:11:699 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:11:766 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:11:834 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:11:901 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:11:968 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:12:014 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:12:083 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:12:150 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:12:218 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:12:285 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:12:355 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:12:442 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:12:540 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:12:857 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:12:923 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:12:991 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:13:056 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:13:121 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:13:188 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:13:253 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:13:297 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:13:362 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:13:560 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:13:625 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:13:828 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:13:876 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:13:945 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:14:014 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:14:063 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:14:155 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:14:202 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:14:273 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:14:343 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:14:389 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:14:459 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:14:529 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:14:574 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:14:644 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:14:713 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:14:784 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:14:853 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:14:900 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:14:969 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:15:039 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:15:110 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:15:158 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:15:229 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:15:279 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:15:373 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:15:418 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:15:490 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:15:561 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:15:608 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:15:679 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:15:749 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:15:796 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:15:867 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:16:009 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:16:056 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:16:127 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:16:175 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:16:245 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:16:315 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:16:386 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:16:456 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:16:504 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:16:574 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:16:623 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:16:692 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:16:763 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:16:880 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:16:952 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:17:022 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:17:092 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:17:140 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:17:210 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:17:281 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:17:327 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:17:398 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:17:468 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:17:542 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:17:588 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:17:659 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:17:731 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:17:778 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:17:850 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:17:922 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:17:969 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:18:041 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:18:184 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:18:232 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:18:305 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:18:355 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:18:426 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:18:499 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:18:571 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:18:618 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:18:685 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:18:757 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:18:822 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:18:868 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:18:935 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:19:002 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:19:047 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:19:135 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:19:204 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:19:251 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:19:319 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:19:385 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:19:453 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:19:496 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:19:586 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:19:652 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:19:718 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:19:762 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:19:826 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:19:892 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:19:958 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:20:023 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:20:090 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:20:156 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:20:223 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:20:286 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:20:354 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:20:399 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:20:464 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:20:553 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:20:596 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:20:663 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:20:728 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:20:793 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:20:858 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:20:923 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:20:968 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:21:054 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:21:121 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:21:186 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:21:299 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:21:366 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:21:434 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:21:502 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:21:548 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:21:615 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:21:706 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:21:751 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:21:819 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:21:886 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:21:954 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:21:999 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:22:066 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:22:134 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:22:201 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:22:269 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:22:336 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:22:403 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:22:448 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:22:515 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:22:585 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:22:652 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:22:698 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:22:765 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:22:855 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:22:899 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:22:967 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:23:034 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:23:104 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:23:149 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:23:216 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:23:308 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:23:354 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:23:421 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:23:489 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:23:556 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:23:602 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:23:670 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:23:738 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:23:808 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:23:855 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:23:946 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:23:994 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:24:066 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:24:138 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:24:186 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:24:258 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:24:306 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:24:381 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:24:453 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:24:528 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:24:578 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:24:650 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:24:698 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:24:772 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:24:820 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:24:893 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:24:966 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:25:014 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:25:087 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:25:161 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:25:208 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:25:279 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:25:352 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:25:398 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:25:468 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:25:541 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:25:588 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:25:658 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:25:707 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:25:802 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:25:848 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:25:919 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:25:991 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:26:038 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:26:109 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:26:229 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:26:303 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:26:351 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:26:425 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:26:496 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:26:619 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:26:692 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:26:741 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:26:813 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:26:862 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:26:933 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:27:005 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:27:076 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:27:125 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:27:196 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:27:318 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:27:390 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:27:438 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:27:535 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:27:583 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:27:655 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:27:702 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:27:774 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:27:847 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:27:895 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:27:967 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:28:016 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:28:088 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:28:162 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:28:233 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:28:282 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:28:354 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:28:475 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:28:548 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:28:597 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:28:669 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:28:740 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:28:809 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:28:854 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:28:923 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:28:990 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:29:033 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:29:100 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:29:189 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:29:236 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:29:304 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:29:375 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:29:446 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:29:492 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:29:563 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:29:679 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:29:771 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:29:817 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:29:884 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:29:953 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:30:000 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:30:068 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:30:137 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:30:186 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:30:279 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:30:325 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:30:395 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:30:466 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:30:513 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:30:584 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:30:654 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:30:724 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:30:772 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:30:843 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:30:890 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:30:984 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:31:054 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:31:103 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:31:222 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:31:292 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:31:339 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:31:410 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:31:479 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:31:548 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:31:616 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:31:685 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:31:754 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:31:800 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:31:871 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:31:920 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:31:993 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:32:065 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:32:135 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:32:182 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:32:247 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:32:314 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:32:380 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:32:443 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:32:506 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:32:572 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:32:634 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:32:695 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:32:756 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:32:817 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:32:877 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:32:957 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:33:017 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:33:078 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:33:156 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:33:217 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:33:256 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:33:337 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:33:396 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:33:456 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:33:537 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:33:596 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:33:657 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:33:718 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:33:798 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:33:858 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:33:918 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:33:978 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:34:038 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:34:098 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:34:158 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:34:218 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:34:298 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:34:357 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:34:438 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:34:496 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:34:536 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:34:616 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:34:677 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:34:755 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:34:815 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:34:874 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:34:993 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:35:053 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:35:130 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:35:188 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:35:267 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:35:325 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:35:565 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:58:35:566 (00001360) > [Render] Working set: 4180MB Page file: 12289MB Video Budget: 3275MB Video Usage: 3275MB Sys Budget: 7440MB Sys Usage: 2538MB Demoted: 2164MB fps: 54.616669 Demoted: 2190MB fps: 45.900002
+21:58:45:634 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:45:677 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:58:47:954 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:59:03:899 (00007604) > [NxUpscaler] DLSS out of VRAM warning
+21:59:35:563 (00001360) > [Render] Quering NVAPI for GPU temperature
+21:59:35:563 (00001360) > [Render] Working set: 4096MB Page file: 12380MB Video Budget: 3267MB Video Usage: 3321MB Sys Budget: 7440MB Sys Usage: 2542MB Demoted: 2190MB fps: 45.900002 Demoted: 2195MB fps: 53.400002
+22:00:35:571 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:00:35:571 (00001360) > [Render] Working set: 4205MB Page file: 12400MB Video Budget: 3283MB Video Usage: 3315MB Sys Budget: 7440MB Sys Usage: 2523MB Demoted: 2195MB fps: 53.400002 Demoted: 2176MB fps: 56.766670
+22:01:35:564 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:01:35:564 (00001360) > [Render] Working set: 4191MB Page file: 12378MB Video Budget: 3283MB Video Usage: 3315MB Sys Budget: 7440MB Sys Usage: 2543MB Demoted: 2176MB fps: 56.766670 Demoted: 2196MB fps: 53.400002
+22:02:35:573 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:02:35:573 (00001360) > [Render] Working set: 4198MB Page file: 12409MB Video Budget: 3283MB Video Usage: 3320MB Sys Budget: 7440MB Sys Usage: 2537MB Demoted: 2196MB fps: 53.400002 Demoted: 2188MB fps: 52.266670
+22:03:35:585 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:03:35:585 (00001360) > [Render] Working set: 4180MB Page file: 12355MB Video Budget: 3283MB Video Usage: 3324MB Sys Budget: 7440MB Sys Usage: 2539MB Demoted: 2188MB fps: 52.266670 Demoted: 2190MB fps: 46.850002
+22:04:35:574 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:04:35:574 (00001360) > [Render] Working set: 4470MB Page file: 12657MB Video Budget: 3275MB Video Usage: 3394MB Sys Budget: 7440MB Sys Usage: 2501MB Demoted: 2190MB fps: 46.850002 Demoted: 2151MB fps: 45.450001
+22:04:48:841 (00007604) > [Input] Input language was changed.
+22:04:48:841 (00007604) > [Input] Keyboard language: "English (United States)" (id: 1033)
+22:04:48:841 (00007604) > [Input] Keyboard physical layout: "India" (id: 00004009)
+22:05:35:573 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:05:35:573 (00001360) > [Render] Working set: 4191MB Page file: 12363MB Video Budget: 3283MB Video Usage: 3331MB Sys Budget: 7440MB Sys Usage: 2528MB Demoted: 2151MB fps: 45.450001 Demoted: 2179MB fps: 56.450005
+22:06:35:584 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:06:35:584 (00001360) > [Render] Working set: 4273MB Page file: 12453MB Video Budget: 3283MB Video Usage: 3360MB Sys Budget: 7440MB Sys Usage: 2533MB Demoted: 2179MB fps: 56.450005 Demoted: 2168MB fps: 50.616669
+22:07:35:577 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:07:35:577 (00001360) > [Render] Working set: 4603MB Page file: 12541MB Video Budget: 3275MB Video Usage: 3349MB Sys Budget: 7440MB Sys Usage: 2495MB Demoted: 2168MB fps: 50.616669 Demoted: 2144MB fps: 46.100002
+22:08:35:575 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:08:35:575 (00001360) > [Render] Working set: 4716MB Page file: 12600MB Video Budget: 3283MB Video Usage: 3364MB Sys Budget: 7440MB Sys Usage: 2528MB Demoted: 2144MB fps: 46.100002 Demoted: 2177MB fps: 45.200001
+22:09:35:591 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:09:35:591 (00001360) > [Render] Working set: 4718MB Page file: 12572MB Video Budget: 3283MB Video Usage: 3361MB Sys Budget: 7440MB Sys Usage: 2530MB Demoted: 2177MB fps: 45.200001 Demoted: 2179MB fps: 38.183334
+22:10:35:595 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:10:35:595 (00001360) > [Render] Working set: 4716MB Page file: 12746MB Video Budget: 3283MB Video Usage: 3446MB Sys Budget: 7440MB Sys Usage: 2520MB Demoted: 2179MB fps: 38.183334 Demoted: 2163MB fps: 35.200001
+22:11:35:600 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:11:35:600 (00001360) > [Render] Working set: 4594MB Page file: 12587MB Video Budget: 3283MB Video Usage: 3385MB Sys Budget: 7440MB Sys Usage: 2536MB Demoted: 2163MB fps: 35.200001 Demoted: 2158MB fps: 45.716667
+22:12:35:594 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:12:35:594 (00001360) > [Render] Working set: 4662MB Page file: 12698MB Video Budget: 3283MB Video Usage: 3388MB Sys Budget: 7440MB Sys Usage: 2509MB Demoted: 2158MB fps: 45.716667 Demoted: 2158MB fps: 39.450001
+22:13:35:603 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:13:35:603 (00001360) > [Render] Working set: 4490MB Page file: 12449MB Video Budget: 3283MB Video Usage: 3375MB Sys Budget: 7440MB Sys Usage: 2510MB Demoted: 2158MB fps: 39.450001 Demoted: 2158MB fps: 49.350002
+22:14:35:593 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:14:35:593 (00001360) > [Render] Working set: 4538MB Page file: 12474MB Video Budget: 3283MB Video Usage: 3375MB Sys Budget: 7440MB Sys Usage: 2538MB Demoted: 2158MB fps: 49.350002 Demoted: 2186MB fps: 45.083336
+22:15:35:594 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:15:35:594 (00001360) > [Render] Working set: 4433MB Page file: 12453MB Video Budget: 3283MB Video Usage: 3364MB Sys Budget: 7440MB Sys Usage: 2537MB Demoted: 2186MB fps: 45.083336 Demoted: 2184MB fps: 47.250004
+22:16:35:611 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:16:35:611 (00001360) > [Render] Working set: 4579MB Page file: 12712MB Video Budget: 3286MB Video Usage: 3372MB Sys Budget: 7440MB Sys Usage: 2536MB Demoted: 2184MB fps: 47.250004 Demoted: 2179MB fps: 45.550003
+22:17:35:606 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:17:35:609 (00001360) > [Render] Working set: 4447MB Page file: 12464MB Video Budget: 3283MB Video Usage: 3364MB Sys Budget: 7440MB Sys Usage: 2530MB Demoted: 2179MB fps: 45.550003 Demoted: 2178MB fps: 44.783337
+22:18:35:607 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:18:35:607 (00001360) > [Render] Working set: 4455MB Page file: 12465MB Video Budget: 3283MB Video Usage: 3370MB Sys Budget: 7440MB Sys Usage: 2538MB Demoted: 2178MB fps: 44.783337 Demoted: 2174MB fps: 46.866669
+22:19:35:607 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:19:35:607 (00001360) > [Render] Working set: 4376MB Page file: 12434MB Video Budget: 3283MB Video Usage: 3359MB Sys Budget: 7440MB Sys Usage: 2535MB Demoted: 2174MB fps: 46.866669 Demoted: 2183MB fps: 48.000004
+22:20:35:618 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:20:35:618 (00001360) > [Render] Working set: 4234MB Page file: 12490MB Video Budget: 3275MB Video Usage: 3363MB Sys Budget: 7440MB Sys Usage: 2527MB Demoted: 2183MB fps: 48.000004 Demoted: 2175MB fps: 59.116669
+22:21:35:615 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:21:35:615 (00001360) > [Render] Working set: 4103MB Page file: 12416MB Video Budget: 3286MB Video Usage: 3362MB Sys Budget: 7440MB Sys Usage: 2527MB Demoted: 2175MB fps: 59.116669 Demoted: 2176MB fps: 58.983337
+22:22:35:618 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:22:35:618 (00001360) > [Render] Working set: 4313MB Page file: 12702MB Video Budget: 3283MB Video Usage: 3367MB Sys Budget: 7440MB Sys Usage: 2531MB Demoted: 2176MB fps: 58.983337 Demoted: 2180MB fps: 55.850002
+22:23:35:621 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:23:35:621 (00001360) > [Render] Working set: 4260MB Page file: 12497MB Video Budget: 3283MB Video Usage: 3383MB Sys Budget: 7440MB Sys Usage: 2532MB Demoted: 2180MB fps: 55.850002 Demoted: 2180MB fps: 51.066669
+22:24:35:621 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:24:35:621 (00001360) > [Render] Working set: 4285MB Page file: 12522MB Video Budget: 3283MB Video Usage: 3383MB Sys Budget: 7440MB Sys Usage: 2505MB Demoted: 2180MB fps: 51.066669 Demoted: 2154MB fps: 44.533337
+22:25:35:626 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:25:35:626 (00001360) > [Render] Working set: 4047MB Page file: 12485MB Video Budget: 3283MB Video Usage: 3383MB Sys Budget: 7440MB Sys Usage: 2530MB Demoted: 2154MB fps: 44.533337 Demoted: 2179MB fps: 60.350002
+22:26:35:622 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:26:35:623 (00001360) > [Render] Working set: 4031MB Page file: 12483MB Video Budget: 3283MB Video Usage: 3383MB Sys Budget: 7440MB Sys Usage: 2528MB Demoted: 2179MB fps: 60.350002 Demoted: 2177MB fps: 57.700005
+22:27:35:622 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:27:35:622 (00001360) > [Render] Working set: 4046MB Page file: 12494MB Video Budget: 3286MB Video Usage: 3383MB Sys Budget: 7440MB Sys Usage: 2541MB Demoted: 2177MB fps: 57.700005 Demoted: 2189MB fps: 53.750004
+22:28:35:629 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:28:35:629 (00001360) > [Render] Working set: 4123MB Page file: 12584MB Video Budget: 3275MB Video Usage: 3447MB Sys Budget: 7440MB Sys Usage: 2532MB Demoted: 2189MB fps: 53.750004 Demoted: 2181MB fps: 50.366669
+22:29:35:640 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:29:35:641 (00001360) > [Render] Working set: 4084MB Page file: 12539MB Video Budget: 3275MB Video Usage: 3384MB Sys Budget: 7440MB Sys Usage: 2538MB Demoted: 2181MB fps: 50.366669 Demoted: 2186MB fps: 47.966671
+22:30:35:656 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:30:35:656 (00001360) > [Render] Working set: 3924MB Page file: 12635MB Video Budget: 3275MB Video Usage: 3383MB Sys Budget: 7440MB Sys Usage: 2552MB Demoted: 2186MB fps: 47.966671 Demoted: 2200MB fps: 45.916668
+22:31:35:667 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:31:35:667 (00001360) > [Render] Working set: 3811MB Page file: 12513MB Video Budget: 3275MB Video Usage: 3391MB Sys Budget: 7440MB Sys Usage: 2534MB Demoted: 2200MB fps: 45.916668 Demoted: 2182MB fps: 45.233337
+22:32:35:688 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:32:35:688 (00001360) > [Render] Working set: 3827MB Page file: 12553MB Video Budget: 3275MB Video Usage: 3403MB Sys Budget: 7440MB Sys Usage: 2545MB Demoted: 2182MB fps: 45.233337 Demoted: 2192MB fps: 42.083336
+22:33:35:691 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:33:35:692 (00001360) > [Render] Working set: 3968MB Page file: 12577MB Video Budget: 3275MB Video Usage: 3425MB Sys Budget: 7440MB Sys Usage: 2545MB Demoted: 2192MB fps: 42.083336 Demoted: 2192MB fps: 46.316669
+22:34:35:684 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:34:35:685 (00001360) > [Render] Working set: 4009MB Page file: 12581MB Video Budget: 3275MB Video Usage: 3429MB Sys Budget: 7440MB Sys Usage: 2542MB Demoted: 2192MB fps: 46.316669 Demoted: 2189MB fps: 40.066669
+22:35:35:689 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:35:35:689 (00001360) > [Render] Working set: 3973MB Page file: 12618MB Video Budget: 3267MB Video Usage: 3484MB Sys Budget: 7440MB Sys Usage: 2527MB Demoted: 2189MB fps: 40.066669 Demoted: 2174MB fps: 50.250004
+22:36:35:694 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:36:35:695 (00001360) > [Render] Working set: 3983MB Page file: 12642MB Video Budget: 3267MB Video Usage: 3429MB Sys Budget: 7440MB Sys Usage: 2545MB Demoted: 2174MB fps: 50.250004 Demoted: 2192MB fps: 53.950005
+22:37:35:690 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:37:35:690 (00001360) > [Render] Working set: 3868MB Page file: 12540MB Video Budget: 3275MB Video Usage: 3428MB Sys Budget: 7440MB Sys Usage: 2508MB Demoted: 2192MB fps: 53.950005 Demoted: 2155MB fps: 49.700001
+22:38:35:683 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:38:35:683 (00001360) > [Render] Working set: 3898MB Page file: 12571MB Video Budget: 3275MB Video Usage: 3429MB Sys Budget: 7440MB Sys Usage: 2538MB Demoted: 2155MB fps: 49.700001 Demoted: 2184MB fps: 52.233337
+22:39:35:684 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:39:35:684 (00001360) > [Render] Working set: 3955MB Page file: 12655MB Video Budget: 3275MB Video Usage: 3453MB Sys Budget: 7440MB Sys Usage: 2543MB Demoted: 2184MB fps: 52.233337 Demoted: 2178MB fps: 48.366669
+22:40:35:700 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:40:35:700 (00001360) > [Render] Working set: 3720MB Page file: 12634MB Video Budget: 3275MB Video Usage: 3430MB Sys Budget: 7440MB Sys Usage: 2554MB Demoted: 2178MB fps: 48.366669 Demoted: 2200MB fps: 53.416668
+22:41:35:725 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:41:35:725 (00001360) > [Render] Working set: 3683MB Page file: 12583MB Video Budget: 3275MB Video Usage: 3428MB Sys Budget: 7440MB Sys Usage: 2550MB Demoted: 2200MB fps: 53.416668 Demoted: 2195MB fps: 44.350002
+22:42:35:718 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:42:35:718 (00001360) > [Render] Working set: 3718MB Page file: 12649MB Video Budget: 3275MB Video Usage: 3493MB Sys Budget: 7440MB Sys Usage: 2548MB Demoted: 2195MB fps: 44.350002 Demoted: 2193MB fps: 46.750004
+22:43:35:717 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:43:35:717 (00001360) > [Render] Working set: 3817MB Page file: 12703MB Video Budget: 3275MB Video Usage: 3432MB Sys Budget: 7440MB Sys Usage: 2551MB Demoted: 2193MB fps: 46.750004 Demoted: 2196MB fps: 51.416668
+22:44:35:723 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:44:35:723 (00001360) > [Render] Working set: 3787MB Page file: 12602MB Video Budget: 3275MB Video Usage: 3440MB Sys Budget: 7440MB Sys Usage: 2553MB Demoted: 2196MB fps: 51.416668 Demoted: 2198MB fps: 44.283337
+22:45:35:728 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:45:35:728 (00001360) > [Render] Working set: 3473MB Page file: 12606MB Video Budget: 3275MB Video Usage: 3440MB Sys Budget: 7440MB Sys Usage: 2555MB Demoted: 2198MB fps: 44.283337 Demoted: 2201MB fps: 47.850002
+22:46:35:721 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:46:35:721 (00001360) > [Render] Working set: 3581MB Page file: 12728MB Video Budget: 3275MB Video Usage: 3456MB Sys Budget: 7440MB Sys Usage: 2531MB Demoted: 2201MB fps: 47.850002 Demoted: 2167MB fps: 44.866669
+22:47:35:715 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:47:35:716 (00001360) > [Render] Working set: 3843MB Page file: 12799MB Video Budget: 3275MB Video Usage: 3451MB Sys Budget: 7440MB Sys Usage: 2534MB Demoted: 2167MB fps: 44.866669 Demoted: 2179MB fps: 46.633335
+22:48:35:727 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:48:35:729 (00001360) > [Render] Working set: 3761MB Page file: 12678MB Video Budget: 3275MB Video Usage: 3520MB Sys Budget: 7440MB Sys Usage: 2539MB Demoted: 2179MB fps: 46.633335 Demoted: 2184MB fps: 50.250004
+22:49:35:721 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:49:35:721 (00001360) > [Render] Working set: 3824MB Page file: 12709MB Video Budget: 3275MB Video Usage: 3449MB Sys Budget: 7440MB Sys Usage: 2519MB Demoted: 2184MB fps: 50.250004 Demoted: 2164MB fps: 48.800003
+22:50:35:721 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:50:35:721 (00001360) > [Render] Working set: 3904MB Page file: 12817MB Video Budget: 3275MB Video Usage: 3444MB Sys Budget: 7440MB Sys Usage: 2519MB Demoted: 2164MB fps: 48.800003 Demoted: 2165MB fps: 39.816669
+22:51:35:728 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:51:35:732 (00001360) > [Render] Working set: 3807MB Page file: 12617MB Video Budget: 3275MB Video Usage: 3444MB Sys Budget: 7440MB Sys Usage: 2538MB Demoted: 2165MB fps: 39.816669 Demoted: 2182MB fps: 41.033337
+22:52:35:735 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:52:35:736 (00001360) > [Render] Working set: 3868MB Page file: 12653MB Video Budget: 3267MB Video Usage: 3448MB Sys Budget: 7440MB Sys Usage: 2538MB Demoted: 2182MB fps: 41.033337 Demoted: 2183MB fps: 111.166672
+22:53:35:730 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:53:35:730 (00001360) > [Render] Working set: 3821MB Page file: 12610MB Video Budget: 3275MB Video Usage: 3443MB Sys Budget: 7440MB Sys Usage: 2530MB Demoted: 2183MB fps: 111.166672 Demoted: 2175MB fps: 52.550003
+22:54:35:744 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:54:35:744 (00001360) > [Render] Working set: 3855MB Page file: 12659MB Video Budget: 3275MB Video Usage: 3447MB Sys Budget: 7440MB Sys Usage: 2538MB Demoted: 2175MB fps: 52.550003 Demoted: 2182MB fps: 49.433334
+22:55:35:731 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:55:35:731 (00001360) > [Render] Working set: 3778MB Page file: 12653MB Video Budget: 3267MB Video Usage: 3448MB Sys Budget: 7440MB Sys Usage: 2535MB Demoted: 2182MB fps: 49.433334 Demoted: 2181MB fps: 67.833336
+22:56:35:732 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:56:35:732 (00001360) > [Render] Working set: 3770MB Page file: 12653MB Video Budget: 3270MB Video Usage: 3448MB Sys Budget: 7440MB Sys Usage: 2535MB Demoted: 2181MB fps: 67.833336 Demoted: 2181MB fps: 130.216675
+22:57:35:736 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:57:35:736 (00001360) > [Render] Working set: 3847MB Page file: 12649MB Video Budget: 3275MB Video Usage: 3443MB Sys Budget: 7440MB Sys Usage: 2530MB Demoted: 2181MB fps: 130.216675 Demoted: 2173MB fps: 71.450005
+22:58:35:743 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:58:35:744 (00001360) > [Render] Working set: 3828MB Page file: 12643MB Video Budget: 3275MB Video Usage: 3443MB Sys Budget: 7440MB Sys Usage: 2554MB Demoted: 2173MB fps: 71.450005 Demoted: 2196MB fps: 48.433334
+22:59:35:754 (00001360) > [Render] Quering NVAPI for GPU temperature
+22:59:35:754 (00001360) > [Render] Working set: 3788MB Page file: 12655MB Video Budget: 3275MB Video Usage: 3443MB Sys Budget: 7440MB Sys Usage: 2552MB Demoted: 2196MB fps: 48.433334 Demoted: 2194MB fps: 41.766670
+23:00:35:766 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:00:35:766 (00001360) > [Render] Working set: 3634MB Page file: 12669MB Video Budget: 3283MB Video Usage: 3443MB Sys Budget: 7440MB Sys Usage: 2547MB Demoted: 2194MB fps: 41.766670 Demoted: 2189MB fps: 38.500004
+23:01:35:779 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:01:35:780 (00001360) > [Render] Working set: 3613MB Page file: 12670MB Video Budget: 3283MB Video Usage: 3442MB Sys Budget: 7440MB Sys Usage: 2551MB Demoted: 2189MB fps: 38.500004 Demoted: 2194MB fps: 43.250004
+23:02:35:795 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:02:35:796 (00001360) > [Render] Working set: 3610MB Page file: 12647MB Video Budget: 3283MB Video Usage: 3442MB Sys Budget: 7440MB Sys Usage: 2562MB Demoted: 2194MB fps: 43.250004 Demoted: 2204MB fps: 45.500004
+23:03:35:794 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:03:35:794 (00001360) > [Render] Working set: 3605MB Page file: 12641MB Video Budget: 3283MB Video Usage: 3442MB Sys Budget: 7440MB Sys Usage: 2555MB Demoted: 2204MB fps: 45.500004 Demoted: 2197MB fps: 45.250004
+23:04:35:806 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:04:35:806 (00001360) > [Render] Working set: 3621MB Page file: 12679MB Video Budget: 3283MB Video Usage: 3444MB Sys Budget: 7440MB Sys Usage: 2557MB Demoted: 2197MB fps: 45.250004 Demoted: 2199MB fps: 52.566669
+23:05:35:795 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:05:35:796 (00001360) > [Render] Working set: 3481MB Page file: 12643MB Video Budget: 3283MB Video Usage: 3441MB Sys Budget: 7440MB Sys Usage: 2554MB Demoted: 2199MB fps: 52.566669 Demoted: 2196MB fps: 49.433334
+23:06:35:802 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:06:35:802 (00001360) > [Render] Working set: 3411MB Page file: 12631MB Video Budget: 3283MB Video Usage: 3441MB Sys Budget: 7440MB Sys Usage: 2548MB Demoted: 2196MB fps: 49.433334 Demoted: 2190MB fps: 47.000004
+23:07:35:797 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:07:35:797 (00001360) > [Render] Working set: 3442MB Page file: 12663MB Video Budget: 3283MB Video Usage: 3441MB Sys Budget: 7440MB Sys Usage: 2554MB Demoted: 2190MB fps: 47.000004 Demoted: 2196MB fps: 49.033337
+23:08:35:797 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:08:35:798 (00001360) > [Render] Working set: 3429MB Page file: 12644MB Video Budget: 3283MB Video Usage: 3441MB Sys Budget: 7440MB Sys Usage: 2561MB Demoted: 2196MB fps: 49.033337 Demoted: 2203MB fps: 45.900002
+23:09:35:792 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:09:35:793 (00001360) > [Render] Working set: 3427MB Page file: 12640MB Video Budget: 3283MB Video Usage: 3441MB Sys Budget: 7440MB Sys Usage: 2556MB Demoted: 2203MB fps: 45.900002 Demoted: 2199MB fps: 40.600002
+23:10:35:792 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:10:35:792 (00001360) > [Render] Working set: 3276MB Page file: 12647MB Video Budget: 3283MB Video Usage: 3441MB Sys Budget: 7440MB Sys Usage: 2561MB Demoted: 2199MB fps: 40.600002 Demoted: 2203MB fps: 47.100002
+23:11:35:795 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:11:35:795 (00001360) > [Render] Working set: 3280MB Page file: 12651MB Video Budget: 3283MB Video Usage: 3441MB Sys Budget: 7440MB Sys Usage: 2553MB Demoted: 2203MB fps: 47.100002 Demoted: 2195MB fps: 46.000004
+23:12:35:799 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:12:35:799 (00001360) > [Render] Working set: 3274MB Page file: 12640MB Video Budget: 3283MB Video Usage: 3441MB Sys Budget: 7440MB Sys Usage: 2560MB Demoted: 2195MB fps: 46.000004 Demoted: 2202MB fps: 47.883335
+23:13:35:800 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:13:35:801 (00001360) > [Render] Working set: 3275MB Page file: 12640MB Video Budget: 3283MB Video Usage: 3440MB Sys Budget: 7440MB Sys Usage: 2560MB Demoted: 2202MB fps: 47.883335 Demoted: 2202MB fps: 53.516670
+23:14:35:797 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:14:35:797 (00001360) > [Render] Working set: 3273MB Page file: 12638MB Video Budget: 3283MB Video Usage: 3440MB Sys Budget: 7440MB Sys Usage: 2558MB Demoted: 2202MB fps: 53.516670 Demoted: 2200MB fps: 53.616669
+23:15:35:806 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:15:35:806 (00001360) > [Render] Working set: 3135MB Page file: 12639MB Video Budget: 3283MB Video Usage: 3440MB Sys Budget: 7440MB Sys Usage: 2560MB Demoted: 2200MB fps: 53.616669 Demoted: 2202MB fps: 51.866669
+23:16:35:810 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:16:35:810 (00001360) > [Render] Working set: 3128MB Page file: 12637MB Video Budget: 3275MB Video Usage: 3440MB Sys Budget: 7440MB Sys Usage: 2558MB Demoted: 2202MB fps: 51.866669 Demoted: 2200MB fps: 49.233337
+23:17:35:812 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:17:35:812 (00001360) > [Render] Working set: 3151MB Page file: 12646MB Video Budget: 3275MB Video Usage: 3440MB Sys Budget: 7440MB Sys Usage: 2555MB Demoted: 2200MB fps: 49.233337 Demoted: 2197MB fps: 49.266670
+23:18:35:843 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:18:35:843 (00001360) > [Render] Working set: 3517MB Page file: 12936MB Video Budget: 3283MB Video Usage: 3539MB Sys Budget: 7440MB Sys Usage: 2543MB Demoted: 2197MB fps: 49.266670 Demoted: 2092MB fps: 58.816669
+23:19:35:851 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:19:35:851 (00001360) > [Render] Working set: 3535MB Page file: 12717MB Video Budget: 3283MB Video Usage: 3472MB Sys Budget: 7440MB Sys Usage: 2517MB Demoted: 2092MB fps: 58.816669 Demoted: 2158MB fps: 43.116669
+23:20:35:846 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:20:35:846 (00001360) > [Render] Working set: 3271MB Page file: 12716MB Video Budget: 3283MB Video Usage: 3534MB Sys Budget: 7440MB Sys Usage: 2522MB Demoted: 2158MB fps: 43.116669 Demoted: 2164MB fps: 47.200001
+23:21:35:852 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:21:35:853 (00001360) > [Render] Working set: 3551MB Page file: 12828MB Video Budget: 3283MB Video Usage: 3500MB Sys Budget: 7440MB Sys Usage: 2561MB Demoted: 2164MB fps: 47.200001 Demoted: 2170MB fps: 52.466671
+23:22:35:847 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:22:35:847 (00001360) > [Render] Working set: 3708MB Page file: 12942MB Video Budget: 3283MB Video Usage: 3516MB Sys Budget: 7440MB Sys Usage: 2552MB Demoted: 2170MB fps: 52.466671 Demoted: 2169MB fps: 39.800003
+23:23:35:841 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:23:35:841 (00001360) > [Render] Working set: 3412MB Page file: 12769MB Video Budget: 3283MB Video Usage: 3484MB Sys Budget: 7440MB Sys Usage: 2551MB Demoted: 2169MB fps: 39.800003 Demoted: 2184MB fps: 42.350002
+23:24:35:846 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:24:35:847 (00001360) > [Render] Working set: 3394MB Page file: 12723MB Video Budget: 3283MB Video Usage: 3484MB Sys Budget: 7440MB Sys Usage: 2522MB Demoted: 2184MB fps: 42.350002 Demoted: 2155MB fps: 42.933334
+23:25:35:843 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:25:35:844 (00001360) > [Render] Working set: 3475MB Page file: 12894MB Video Budget: 3275MB Video Usage: 3474MB Sys Budget: 7440MB Sys Usage: 2555MB Demoted: 2155MB fps: 42.933334 Demoted: 2187MB fps: 48.616669
+23:26:35:857 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:26:35:857 (00001360) > [Render] Working set: 3651MB Page file: 12922MB Video Budget: 3283MB Video Usage: 3487MB Sys Budget: 7440MB Sys Usage: 2548MB Demoted: 2187MB fps: 48.616669 Demoted: 2179MB fps: 43.516670
+23:27:35:879 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:27:35:879 (00001360) > [Render] Working set: 3955MB Page file: 13047MB Video Budget: 3283MB Video Usage: 3569MB Sys Budget: 7440MB Sys Usage: 2548MB Demoted: 2179MB fps: 43.516670 Demoted: 2159MB fps: 41.783337
+23:28:35:887 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:28:35:887 (00001360) > [Render] Working set: 3703MB Page file: 12758MB Video Budget: 3283MB Video Usage: 3498MB Sys Budget: 7440MB Sys Usage: 2531MB Demoted: 2159MB fps: 41.783337 Demoted: 2162MB fps: 42.050003
+23:29:35:890 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:29:35:891 (00001360) > [Render] Working set: 3922MB Page file: 13007MB Video Budget: 3283MB Video Usage: 3516MB Sys Budget: 7440MB Sys Usage: 2548MB Demoted: 2162MB fps: 42.050003 Demoted: 2179MB fps: 38.416668
+23:30:35:905 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:30:35:905 (00001360) > [Render] Working set: 3896MB Page file: 13042MB Video Budget: 3283MB Video Usage: 3550MB Sys Budget: 7440MB Sys Usage: 2541MB Demoted: 2179MB fps: 38.416668 Demoted: 2145MB fps: 42.316669
+23:31:35:912 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:31:35:913 (00001360) > [Render] Working set: 3740MB Page file: 12778MB Video Budget: 3283MB Video Usage: 3514MB Sys Budget: 7440MB Sys Usage: 2546MB Demoted: 2145MB fps: 42.316669 Demoted: 2178MB fps: 44.516670
+23:32:35:906 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:32:35:906 (00001360) > [Render] Working set: 3895MB Page file: 12966MB Video Budget: 3283MB Video Usage: 3518MB Sys Budget: 7440MB Sys Usage: 2520MB Demoted: 2178MB fps: 44.516670 Demoted: 2151MB fps: 40.566669
+23:33:35:913 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:33:35:914 (00001360) > [Render] Working set: 3840MB Page file: 12841MB Video Budget: 3275MB Video Usage: 3563MB Sys Budget: 7440MB Sys Usage: 2557MB Demoted: 2151MB fps: 40.566669 Demoted: 2191MB fps: 57.733337
+23:34:35:919 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:34:35:920 (00001360) > [Render] Working set: 4266MB Page file: 13072MB Video Budget: 3275MB Video Usage: 3675MB Sys Budget: 7440MB Sys Usage: 2533MB Demoted: 2191MB fps: 57.733337 Demoted: 2160MB fps: 56.033337
+23:35:35:924 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:35:35:925 (00001360) > [Render] Working set: 4323MB Page file: 12971MB Video Budget: 3275MB Video Usage: 3559MB Sys Budget: 7440MB Sys Usage: 2543MB Demoted: 2160MB fps: 56.033337 Demoted: 2170MB fps: 55.016670
+23:36:35:917 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:36:35:918 (00001360) > [Render] Working set: 4462MB Page file: 13032MB Video Budget: 3267MB Video Usage: 3600MB Sys Budget: 7440MB Sys Usage: 2565MB Demoted: 2170MB fps: 55.016670 Demoted: 2192MB fps: 56.333336
+23:37:35:919 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:37:35:919 (00001360) > [Render] Working set: 3976MB Page file: 12980MB Video Budget: 3275MB Video Usage: 3600MB Sys Budget: 7440MB Sys Usage: 2566MB Demoted: 2192MB fps: 56.333336 Demoted: 2193MB fps: 49.483337
+23:38:35:925 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:38:35:925 (00001360) > [Render] Working set: 3948MB Page file: 12897MB Video Budget: 3275MB Video Usage: 3537MB Sys Budget: 7440MB Sys Usage: 2565MB Demoted: 2193MB fps: 49.483337 Demoted: 2192MB fps: 48.050003
+23:39:35:919 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:39:35:919 (00001360) > [Render] Working set: 4108MB Page file: 12909MB Video Budget: 3275MB Video Usage: 3541MB Sys Budget: 7440MB Sys Usage: 2558MB Demoted: 2192MB fps: 48.050003 Demoted: 2184MB fps: 51.266670
+23:40:35:918 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:40:35:918 (00001360) > [Render] Working set: 4089MB Page file: 12895MB Video Budget: 3267MB Video Usage: 3539MB Sys Budget: 7440MB Sys Usage: 2565MB Demoted: 2184MB fps: 51.266670 Demoted: 2191MB fps: 53.450005
+23:41:35:926 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:41:35:926 (00001360) > [Render] Working set: 4121MB Page file: 12926MB Video Budget: 3275MB Video Usage: 3536MB Sys Budget: 7440MB Sys Usage: 2551MB Demoted: 2191MB fps: 53.450005 Demoted: 2178MB fps: 61.383335
+23:42:35:930 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:42:35:931 (00001360) > [Render] Working set: 4068MB Page file: 12870MB Video Budget: 3267MB Video Usage: 3535MB Sys Budget: 7440MB Sys Usage: 2551MB Demoted: 2178MB fps: 61.383335 Demoted: 2178MB fps: 61.483337
+23:43:35:929 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:43:35:930 (00001360) > [Render] Working set: 4135MB Page file: 12935MB Video Budget: 3267MB Video Usage: 3535MB Sys Budget: 7440MB Sys Usage: 2553MB Demoted: 2178MB fps: 61.483337 Demoted: 2181MB fps: 63.550003
+23:44:35:921 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:44:35:921 (00001360) > [Render] Working set: 4130MB Page file: 12913MB Video Budget: 3275MB Video Usage: 3536MB Sys Budget: 7440MB Sys Usage: 2546MB Demoted: 2181MB fps: 63.550003 Demoted: 2172MB fps: 59.350002
+23:45:35:928 (00001360) > [Render] Quering NVAPI for GPU temperature
+23:45:35:928 (00001360) > [Render] Working set: 4117MB Page file: 12944MB Video Budget: 3267MB Video Usage: 3599MB Sys Budget: 7440MB Sys Usage: 2567MB Demoted: 2172MB fps: 59.350002 Demoted: 2193MB fps: 62.150002
+23:46:25:564 (00007604) > [NxApp] Destroying
+23:46:25:592 (00007604) > [DXGI] Destroyed swapchain.
+23:46:25:592 (00007604) > [SwapChain] Destroyed.
+23:46:25:592 (00007604) > [SwapChain] Released.
+23:46:25:593 (00007604) > [Render] Unloading NVAPI
+23:46:25:593 (00007604) > [Render] Done unloading NVAPI
+23:46:25:597 (00007604) > [DXGI] Destroyed swapchain.
+23:46:25:597 (00007604) > [DXGI] Released.
+--- NIXXES log closed ---
