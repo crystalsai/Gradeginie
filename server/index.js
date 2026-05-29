@@ -47,9 +47,29 @@ app.use("/api/contact", require("./routes/Other Api/contact.route"));
 app.use("/api/chat", require("./routes/Other Api/chat.route"));
 
 if (require.main === module) {
-  app.listen(port, () => {
-    console.log(`Server Listening On http://localhost:${port}`);
-  });
+  const startServer = async () => {
+    try {
+      await connectToMongo();
+      const server = app.listen(port, () => {
+        console.log(`Server Listening On http://localhost:${port}`);
+      });
+
+      server.on("error", (error) => {
+        if (error.code === "EADDRINUSE") {
+          console.error(`Port ${port} is already in use. Stop the old server or change PORT in .env.`);
+          process.exit(1);
+        }
+
+        console.error("Server failed to start", error);
+        process.exit(1);
+      });
+    } catch (error) {
+      console.error("Server failed to start because MongoDB connection failed");
+      process.exit(1);
+    }
+  };
+
+  startServer();
 }
 
 module.exports = app;
