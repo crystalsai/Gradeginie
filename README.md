@@ -2,32 +2,37 @@
 
 A college management system built with a React frontend and an Express/MongoDB backend.
 
+Live site: https://gradeginie.vercel.app
+
 ## Project Overview
 
 - `client/` contains the React frontend built with Create React App.
 - `server/` contains the Express API server with MongoDB integration.
-- The frontend uses `axios` to call backend endpoints.
-- The backend stores data in MongoDB and includes email/mail utilities.
+- The frontend calls backend endpoints through `/api` in production.
+- The backend stores data in MongoDB Atlas and sends email notifications with Gmail SMTP.
+- Uploaded profile/media files work locally from `server/media`; on Vercel, uploads are stored as data URLs because serverless filesystem writes are not persistent.
 
 ## Tech Stack
 
 - Frontend: React, React Router, Redux, Axios, Tailwind CSS
-- Backend: Node.js, Express, MongoDB, Mongoose, dotenv, cors
-- Deployment: frontend deployable as a static site, backend deployable on any Node host
+- Backend: Node.js, Express, MongoDB, Mongoose, Multer, Nodemailer, dotenv, cors
+- Deployment: Vercel full-stack deployment from the root `vercel.json`
 
 ## Repository Structure
 
-- `client/` – React application
-- `server/` – Express backend
-- `server/Database/db.js` – MongoDB connection
-- `server/index.js` – Express app entry point
-- `server/routes/` – API routes
-- `server/controllers/` – API request handlers
-- `server/models/` – Mongoose models
+- `client/` - React application
+- `server/` - Express backend
+- `server/Database/db.js` - MongoDB connection
+- `server/index.js` - Express app entry point
+- `server/routes/` - API routes
+- `server/controllers/` - API request handlers
+- `server/models/` - Mongoose models
+- `server/middlewares/multer.middleware.js` - upload handling
+- `server/utils/mailer.js` - email helpers
 
 ## Local Setup
 
-### 1. Install dependencies
+### 1. Install Dependencies
 
 ```bash
 git clone <repo-url>
@@ -36,28 +41,40 @@ npm install --prefix server
 npm install --prefix client
 ```
 
-### 2. Configure backend environment
+### 2. Configure Backend Environment
 
-Create `server/.env` with:
+Copy `server/.env.example` to `server/.env` and fill in real values:
 
 ```env
 MONGODB_URI=<your-mongodb-connection-string>
+PORT=8000
 FRONTEND_API_LINK=http://localhost:3000
-EMAIL_USER=<your-email@example.com>
-EMAIL_PASS=<your-email-password>
-COLLEGE_NAME=Gradeginie
-PORT=5000
+EMAIL_USER=<your-gmail-address>
+EMAIL_PASS=<your-gmail-app-password>
+COLLEGE_NAME=EduPortal College
 ```
 
-### 3. Configure frontend environment
+For Gmail, `EMAIL_PASS` should be a Google App Password, not your normal Gmail password.
 
-Create `client/.env` with:
+### 3. Configure Frontend Environment
+
+Copy `client/.env.example` to `client/.env`.
+
+For local frontend talking to the online backend:
 
 ```env
-REACT_APP_APILINK=http://localhost:5000/api
+REACT_APP_APILINK=https://gradeginie.vercel.app/api
+REACT_APP_MEDIA_LINK=https://gradeginie.vercel.app/media
 ```
 
-### 4. Run locally
+For local frontend talking to a local backend:
+
+```env
+REACT_APP_APILINK=http://localhost:8000/api
+REACT_APP_MEDIA_LINK=http://localhost:8000/media
+```
+
+### 4. Run Locally
 
 Start the backend:
 
@@ -79,55 +96,66 @@ Then open `http://localhost:3000`.
 
 ### Backend
 
-- `npm start` – start the Express server
-- `npm run dev` – start the backend with nodemon
-- `npm run seed` – run the admin seeder script
+- `npm start` - start the Express server
+- `npm run dev` - start the backend with nodemon
+- `npm run seed` - run the admin seeder script
 
 ### Frontend
 
-- `npm start` – run the React app in development
-- `npm run build` – build the production frontend
-- `npm test` – run React tests
+- `npm start` - run the React app in development
+- `npm run build` - build the production frontend
+- `npm test` - run React tests
 
 ## Deployment
 
-### Recommended setup
+The project is deployed to Vercel from the repository root.
 
-Deploy the backend and frontend separately:
+Root `vercel.json`:
 
-1. Backend: host on Render, Railway, Heroku, Fly, or another Node host.
-2. Frontend: deploy `client/` on Vercel or Netlify.
+- Builds `client/package.json` as a static React app.
+- Builds `server/index.js` as a Vercel Node function.
+- Routes `/api/*` and `/media/*` to the backend.
+- Routes frontend pages to the React app.
 
-### Frontend deployment
+Production URL:
 
-- Deploy only the `client/` React app as a static site.
-- Set the build command to `npm run build` and the output directory to `build`.
-- Configure `REACT_APP_APILINK` with your backend URL.
-- A `vercel.json` file is included in the repo root to help Vercel deploy only `client/`.
+```text
+https://gradeginie.vercel.app
+```
 
-### Backend deployment notes
+Deploy:
 
-- Make sure `MONGODB_URI` is configured in the backend host.
-- Set `FRONTEND_API_LINK` to the frontend URL.
-- Add email credentials if mail features are needed.
+```bash
+npx vercel --prod
+```
+
+Required Vercel environment variables:
+
+- `MONGODB_URI`
+- `FRONTEND_API_LINK`
+- `EMAIL_USER`
+- `EMAIL_PASS`
+- `COLLEGE_NAME`
 
 ## Environment Variables
 
 ### Backend (`server/.env`)
 
-- `MONGODB_URI` – MongoDB connection string
-- `FRONTEND_API_LINK` – frontend origin allowed by CORS
-- `EMAIL_USER` – email account for sending email
-- `EMAIL_PASS` – email password or app-specific password
-- `COLLEGE_NAME` – optional display name for sender
-- `PORT` – server port (default `5000`)
+- `MONGODB_URI` - MongoDB connection string
+- `PORT` - local backend port, currently `8000`
+- `FRONTEND_API_LINK` - frontend origin allowed by CORS
+- `EMAIL_USER` - email account for sending email
+- `EMAIL_PASS` - Gmail app password
+- `COLLEGE_NAME` - display name used in emails
 
 ### Frontend (`client/.env`)
 
-- `REACT_APP_APILINK` – base API URL for backend requests
+- `REACT_APP_APILINK` - base API URL for backend requests
+- `REACT_APP_MEDIA_LINK` - base media URL for uploaded files
 
 ## Notes
 
-- The backend serves static media from `server/media`.
-- The frontend expects the API base URL in `client/src/baseUrl.js`.
-- If deploying to Vercel, do not deploy the entire root repo as a single Node app; deploy only `client/` and host `server/` separately.
+- Do not commit real `.env` files. Use `.env.example` files for templates.
+- New student/faculty registration sends welcome emails when SMTP credentials are valid.
+- Deleting a student or faculty member also removes the matching login credential, so the same enrollment number or employee ID can be reused.
+- The deployed backend logs `MongoDB connected successfully` when the database connection works.
