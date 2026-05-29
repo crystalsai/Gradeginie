@@ -1,4 +1,5 @@
 const facultyDetails = require("../../models/Faculty/details.model.js")
+const facultyCredential = require("../../models/Faculty/credential.model.js")
 const { getUploadedFileValue } = require("../../utils/uploadedFile.js")
 
 const getDetails = async (req, res) => {
@@ -82,6 +83,7 @@ const deleteDetails = async (req, res) => {
                 message: "No Faculty Found",
             });
         }
+        await facultyCredential.deleteMany({ loginid: user.employeeId });
         const data = {
             success: true,
             message: "Deleted Successfull!",

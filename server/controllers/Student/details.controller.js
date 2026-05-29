@@ -1,4 +1,5 @@
 const studentDetails = require("../../models/Students/details.model.js")
+const studentCredential = require("../../models/Students/credential.model.js")
 const { getUploadedFileValue } = require("../../utils/uploadedFile.js")
 
 const getDetails = async (req, res) => {
@@ -76,7 +77,6 @@ const updateDetails = async (req, res) => {
 }
 
 const deleteDetails = async (req, res) => {
-    let { id } = req.body;
     try {
         let user = await studentDetails.findByIdAndDelete(req.params.id);
         if (!user) {
@@ -85,6 +85,7 @@ const deleteDetails = async (req, res) => {
                 message: "No Student Found",
             });
         }
+        await studentCredential.deleteMany({ loginid: user.enrollmentNo });
         const data = {
             success: true,
             message: "Deleted Successfull!",

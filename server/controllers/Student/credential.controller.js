@@ -32,7 +32,7 @@ const loginHandler = async (req, res) => {
 const registerHandler = async (req, res) => {
     let { loginid, password } = req.body;
     try {
-        let user = await studentCredential.findOne(req.body);
+        let user = await studentCredential.findOne({ loginid });
         if (user) {
             return res.status(400).json({
                 success: false,
