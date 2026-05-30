@@ -202,7 +202,7 @@ const Login = ({ onBackToLanding }) => {
           </form>
 
           <p style={{ textAlign: "center", color: "#475569", fontSize: 12, marginTop: 24 }}>
-            Admin demo password: admin123. Student and faculty passwords are set by admin.
+            Default password is your enrollment/employee ID. Contact admin if you need help.
           </p>
         </div>
       </div>
