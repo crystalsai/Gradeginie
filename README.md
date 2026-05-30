@@ -2,7 +2,7 @@
 
 A college management system built with a React frontend and an Express/MongoDB backend.
 
-Live site: https://gradeginie.vercel.app
+Live site: https://mygradegenie.vercel.app
 
 ## Project Overview
 
@@ -63,8 +63,8 @@ Copy `client/.env.example` to `client/.env`.
 For local frontend talking to the online backend:
 
 ```env
-REACT_APP_APILINK=https://gradeginie.vercel.app/api
-REACT_APP_MEDIA_LINK=https://gradeginie.vercel.app/media
+REACT_APP_APILINK=/api
+REACT_APP_MEDIA_LINK=/media
 ```
 
 For local frontend talking to a local backend:
@@ -120,7 +120,7 @@ Root `vercel.json`:
 Production URL:
 
 ```text
-https://gradeginie.vercel.app
+https://mygradegenie.vercel.app
 ```
 
 Deploy:
