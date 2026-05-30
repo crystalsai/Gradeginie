@@ -93,7 +93,7 @@ const LandingPage = ({ onLoginClick }) => {
   return (
     <div style={{ fontFamily: "'Inter', 'Poppins', sans-serif", background: "#0f172a", color: "#e2e8f0", overflowX: "hidden" }}>
       {/* ── NAVBAR ── */}
-      <nav className="landing-nav" style={{
+      <nav style={{
         position: "fixed", top: 0, left: 0, right: 0, zIndex: 1000,
         background: scrolled ? "rgba(15,23,42,0.95)" : "transparent",
         backdropFilter: scrolled ? "blur(20px)" : "none",
@@ -101,7 +101,7 @@ const LandingPage = ({ onLoginClick }) => {
         transition: "all 0.4s ease",
         padding: "0 2rem",
       }}>
-        <div className="landing-nav-inner" style={{ maxWidth: 1200, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", height: 70 }}>
+        <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", height: 70 }}>
           {/* Logo */}
           <div style={{ display: "flex", alignItems: "center", gap: 10, cursor: "pointer" }} onClick={() => scrollTo("home")}>
             <div style={{
@@ -116,7 +116,7 @@ const LandingPage = ({ onLoginClick }) => {
           </div>
 
           {/* Desktop Nav */}
-          <div className="landing-nav-links" style={{ display: "flex", gap: 6, alignItems: "center" }}>
+          <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
             {navLinks.map(l => (
               <button key={l.id} onClick={() => scrollTo(l.id)} style={{
                 border: "none", cursor: "pointer", padding: "8px 16px",
@@ -141,13 +141,13 @@ const LandingPage = ({ onLoginClick }) => {
       {/* ── HERO SECTION ── */}
       <section id="home" style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", position: "relative", overflow: "hidden", paddingTop: 70 }}>
         {/* Animated blobs */}
-        <div className="landing-blob" style={{ position: "absolute", top: "10%", left: "5%", width: 500, height: 500, borderRadius: "50%", background: "radial-gradient(circle, rgba(99,102,241,0.15) 0%, transparent 70%)", filter: "blur(40px)" }} />
-        <div className="landing-blob" style={{ position: "absolute", bottom: "10%", right: "5%", width: 400, height: 400, borderRadius: "50%", background: "radial-gradient(circle, rgba(124,58,237,0.15) 0%, transparent 70%)", filter: "blur(40px)" }} />
+        <div style={{ position: "absolute", top: "10%", left: "5%", width: 500, height: 500, borderRadius: "50%", background: "radial-gradient(circle, rgba(99,102,241,0.15) 0%, transparent 70%)", filter: "blur(40px)" }} />
+        <div style={{ position: "absolute", bottom: "10%", right: "5%", width: 400, height: 400, borderRadius: "50%", background: "radial-gradient(circle, rgba(124,58,237,0.15) 0%, transparent 70%)", filter: "blur(40px)" }} />
         
         {/* Grid pattern */}
         <div style={{ position: "absolute", inset: 0, backgroundImage: "linear-gradient(rgba(99,102,241,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(99,102,241,0.05) 1px, transparent 1px)", backgroundSize: "60px 60px" }} />
 
-        <div className="landing-hero-grid" style={{ maxWidth: 1200, margin: "0 auto", padding: "4rem 2rem", position: "relative", display: "grid", gridTemplateColumns: "1fr 1fr", gap: 60, alignItems: "center" }}>
+        <div style={{ maxWidth: 1200, margin: "0 auto", padding: "4rem 2rem", position: "relative", display: "grid", gridTemplateColumns: "1fr 1fr", gap: 60, alignItems: "center" }}>
           
           {/* Left Text */}
           <div>
@@ -174,7 +174,7 @@ const LandingPage = ({ onLoginClick }) => {
             <p style={{ fontSize: "1.15rem", color: "#94a3b8", maxWidth: 500, marginBottom: 40, lineHeight: 1.7 }}>
               A comprehensive college management portal for students, faculty, and administrators. Track marks, access study materials, and connect globally — all in one place.
             </p>
-            <div className="landing-hero-actions" style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
+            <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
               <button onClick={onLoginClick} style={{
                 background: "linear-gradient(135deg, #6366f1, #7c3aed)",
                 border: "none", cursor: "pointer", padding: "14px 36px",
@@ -192,7 +192,7 @@ const LandingPage = ({ onLoginClick }) => {
           </div>
 
           {/* Right Image Carousel */}
-          <div className="landing-hero-media" style={{ position: "relative", height: 450, borderRadius: 24, overflow: "hidden", boxShadow: "0 20px 60px rgba(0,0,0,0.5)", border: "1px solid rgba(255,255,255,0.1)" }}>
+          <div style={{ position: "relative", height: 450, borderRadius: 24, overflow: "hidden", boxShadow: "0 20px 60px rgba(0,0,0,0.5)", border: "1px solid rgba(255,255,255,0.1)" }}>
             {slides.map((url, i) => (
               <img key={i} src={url} alt="Campus" style={{
                 position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover",
@@ -243,7 +243,7 @@ const LandingPage = ({ onLoginClick }) => {
             </p>
           </div>
 
-          <div className="landing-card-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 24 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 24 }}>
             {[
               { icon: "🎓", title: "Student-Centric Design", desc: "Students can view marks, download study materials, check timetables, and receive real-time notifications — all from their personalized dashboard." },
               { icon: "👨‍🏫", title: "Faculty Tools", desc: "Instructors upload marks, share study materials (PDFs & video links), manage student records, and send targeted notifications effortlessly." },
@@ -266,7 +266,7 @@ const LandingPage = ({ onLoginClick }) => {
           </div>
 
           {/* Mission strip */}
-          <div className="landing-mission" style={{
+          <div style={{
             marginTop: 60, padding: 40, borderRadius: 20,
             background: "linear-gradient(135deg, rgba(99,102,241,0.12), rgba(124,58,237,0.08))",
             border: "1px solid rgba(99,102,241,0.2)", display: "flex", alignItems: "center", gap: 32, flexWrap: "wrap",
@@ -296,7 +296,7 @@ const LandingPage = ({ onLoginClick }) => {
             </p>
           </div>
 
-          <div className="landing-card-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 24 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 24 }}>
             {[
               { icon: "📊", gradient: "linear-gradient(135deg,#6366f1,#4f46e5)", title: "Marks Management", desc: "Faculty upload internal assessment marks for students. Students can view detailed marks breakdowns anytime." },
               { icon: "📚", gradient: "linear-gradient(135deg,#059669,#0d9488)", title: "Study Materials", desc: "Upload PDF documents and YouTube/video links. Students get email notifications instantly when materials are added." },
@@ -339,7 +339,7 @@ const LandingPage = ({ onLoginClick }) => {
             </p>
           </div>
 
-          <div className="landing-contact-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 40, alignItems: "start" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 40, alignItems: "start" }}>
             {/* Info */}
             <div>
               {[
@@ -363,7 +363,7 @@ const LandingPage = ({ onLoginClick }) => {
             </div>
 
             {/* Form */}
-            <form className="landing-contact-form" onSubmit={handleContact} style={{
+            <form onSubmit={handleContact} style={{
               background: "rgba(255,255,255,0.03)", border: "1px solid rgba(99,102,241,0.15)",
               borderRadius: 20, padding: 36,
             }}>
@@ -420,7 +420,7 @@ const LandingPage = ({ onLoginClick }) => {
         borderTop: "1px solid rgba(99,102,241,0.15)",
         background: "#0a0f1e", padding: "40px 2rem",
       }}>
-        <div className="landing-footer-inner" style={{ maxWidth: 1100, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 20 }}>
+        <div style={{ maxWidth: 1100, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 20 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <div style={{ width: 36, height: 36, borderRadius: 10, background: "linear-gradient(135deg, #6366f1, #7c3aed)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 18, fontWeight: 800, color: "#fff" }}>E</div>
             <span style={{ fontSize: 16, fontWeight: 700, color: "#94a3b8" }}>EduPortal</span>
@@ -439,34 +439,6 @@ const LandingPage = ({ onLoginClick }) => {
         * { scroll-behavior: smooth; }
         input::placeholder, textarea::placeholder { color: #475569; }
         input:focus, textarea:focus { border-color: rgba(99,102,241,0.5) !important; }
-
-        @media (max-width: 768px) {
-          .landing-nav { padding: 0 1rem !important; }
-          .landing-nav-inner { height: auto !important; min-height: 64px; gap: 12px; align-items: flex-start !important; padding: 12px 0; flex-direction: column; }
-          .landing-nav-links { width: 100%; gap: 4px !important; overflow-x: auto; padding-bottom: 2px; }
-          .landing-nav-links button { white-space: nowrap; padding: 8px 12px !important; }
-          .landing-nav-links button:last-child { margin-left: auto !important; }
-
-          .landing-hero-grid { grid-template-columns: 1fr !important; gap: 32px !important; padding: 5.5rem 1rem 3rem !important; text-align: left; }
-          .landing-hero-media { height: 280px !important; border-radius: 18px !important; }
-          .landing-hero-actions { flex-direction: column; }
-          .landing-hero-actions button { width: 100%; }
-          .landing-blob { width: 260px !important; height: 260px !important; }
-
-          section { scroll-margin-top: 120px; }
-          section[id="about"], section[id="services"], section[id="contact"] { padding: 72px 1rem !important; }
-          .landing-card-grid { grid-template-columns: 1fr !important; gap: 16px !important; }
-          .landing-mission { padding: 24px !important; align-items: flex-start !important; }
-          .landing-contact-grid { grid-template-columns: 1fr !important; gap: 24px !important; }
-          .landing-contact-form { padding: 24px !important; }
-          .landing-footer-inner { flex-direction: column; align-items: flex-start !important; }
-        }
-
-        @media (max-width: 420px) {
-          .landing-nav-links button { font-size: 13px !important; padding: 8px 10px !important; }
-          .landing-hero-grid { padding-left: 0.875rem !important; padding-right: 0.875rem !important; }
-          .landing-hero-media { height: 220px !important; }
-        }
       `}</style>
     </div>
   );
