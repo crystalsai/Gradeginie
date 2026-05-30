@@ -6,6 +6,7 @@
   "routes": [
     { "src": "/api/(.*)", "dest": "/server/index.js" },
     { "src": "/media/(.*)", "dest": "/server/index.js" },
+    { "src": "/favicon.svg", "dest": "/client/favicon.svg" },
     { "src": "/static/(.*)", "dest": "/client/static/$1" },
     { "src": "/(.*)", "dest": "/client/index.html" }
   ]
